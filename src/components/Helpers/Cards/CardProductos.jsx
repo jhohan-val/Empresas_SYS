@@ -3,7 +3,7 @@ import IconoProductos from "../imagenes/IconoProductos";
 
 const CardProductos = () => {
   return (
-    <section>
+<section>
       <article className="card-productos">
         <IconoProductos/>
         <h3>Productos</h3>
@@ -12,7 +12,7 @@ const CardProductos = () => {
         <p>Esta tarjeta te permitirá agregar, editar y eliminar tus productos</p>
         <BtnAcceder/>
       </article>
-    </section>
+    </section>    
   );
 };
 

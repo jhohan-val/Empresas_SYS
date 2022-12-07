@@ -8,4 +8,4 @@ const BtnPerfil = () => {
     )
 }
 
-export default BtnPerfil
+export default BtnPerfil;

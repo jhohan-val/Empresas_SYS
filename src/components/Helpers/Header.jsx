@@ -7,14 +7,17 @@ const Header = () => {
       <nav class="navbar bg-success.bg-gradient">
         <section class="container-fluid">
           <LogoHeader />
-          <h2 className="texto-header1">Home</h2>
+          <a href="">Home</a>
+          <a href="">Clientes</a>
+          <a href="">Productos</a>
+          <a href="">Proveedores</a>
+
+          {/* <h2 className="texto-header1">Home</h2>
           <h2 className="texto-header2">Clientes</h2>
           <h2 className="texto-header3">Productos</h2>
-          <h2 className="texto-header4">Proveedores</h2>
+          <h2 className="texto-header4">Proveedores</h2> */}
 
-          <button class="btn-perfil" type="button">
-            <BtnPerfil/>
-          </button>
+          <button class="btn-perfil" type="button" value="Salir">SALIR</button>
         </section>
       </nav>
     </header>
