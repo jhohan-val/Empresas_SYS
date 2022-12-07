@@ -1,6 +1,5 @@
 const TablaProductos = () => {
     return(
-
         <section className="productos" id="productos">
             <table className="tabla-productos" id="tabla-productos">
                 <thead className="thead">

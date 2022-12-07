@@ -1,6 +1,5 @@
 const FormularioProductos = () => {
     return(
-
         <section className="registro-productos">
             <form className="productos" action="">
                 <input class="form3_item" placeholder="Nombre" type="text" />
@@ -15,5 +14,4 @@ const FormularioProductos = () => {
 
     )
 }
-
 export default FormularioProductos;

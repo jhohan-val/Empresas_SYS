@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+
+
+* {
+  font-family: 'JetBrains Mono', monospace;
+  width: 100vw;
+  height: 100vh;
+  background: transparent linear-gradient(118deg, #C69749 0%, #000000BD 100%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+/* .logo-login{
+    left: 778px;
+    width: 200px;
+    height: 100px;
+    background: transparent url('img/LOGO.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.login{
+    top: 114px;
+    left: 603px;
+    width: 714px;
+    height: 852px;
+    background: #000000 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 10px #00000091;
+    border-radius: 21px;
+    opacity: 0.4;
+}
+
+.usuario{
+    top: 485px;
+    left: 701px;
+    width: 518px;
+    height: 67px;
+    border: 1px solid #C69749;
+    border-radius: 42px;
+    opacity: 0.36;
+} */

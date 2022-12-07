@@ -1,6 +1,5 @@
-const FormularioClientes = () =>{
+const FormularioClientes = () => {
     return(
-
         <section className="registro-clientes">
             <form className="clientes" action="">
                 <input class="form-item" placeholder="Nombre" type="text" />
@@ -15,5 +14,4 @@ const FormularioClientes = () =>{
         
     )
 }
-
 export default FormularioClientes;

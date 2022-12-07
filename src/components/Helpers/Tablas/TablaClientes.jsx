@@ -36,5 +36,4 @@ const TablaClientes = () => {
         </section>
     )
 }
-
 export default TablaClientes;

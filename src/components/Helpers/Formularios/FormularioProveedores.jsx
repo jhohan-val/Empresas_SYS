@@ -1,6 +1,5 @@
 const FormularioProveedores = () => {
     return(
-
         <section className="registro-proveedores">
             <form className="proveedores" action="">
                 <input class="form3_item" placeholder="Nombre" type="text" />
@@ -12,6 +11,7 @@ const FormularioProveedores = () => {
                 <input class="btnGuardar" type="submit" value="Agregar" />
             </form>
         </section>
-
     )
 }
+
+export default FormularioProveedores;
