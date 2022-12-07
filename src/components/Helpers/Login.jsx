@@ -1,3 +1,4 @@
+import BtnLogin from "./Botones/BtnLogin";
 import LogoLogin from "./imagenes/LogoLogin";
 
 const Login = () => {
@@ -5,12 +6,14 @@ const Login = () => {
         <section className="login" id="login">
 
             <form className="login-form" id="login-form" action="">
+                <LogoLogin/>
                 <input className="usuario" id="usuario" placeholder="Usuario" type="text" />
                 <input className="contraseña" id="contraseña" placeholder="Contraseña" type="password" />
-                <button className="btn-iniciar" id="btn-iniciar" type="submit"></button>
+                <BtnLogin/>
                 <section className="mensaje-error">
+                
                 <img src="" class="icono-error" alt=""/>
-                    <p class=""></p>
+                    <p class=""></p>   
                 </section>
             </form>
         </section>

@@ -5,6 +5,10 @@ import Login from "../Helpers/Login";
 const Main = ()  =>{
     return (
             <main>
+                <section className="login">
+                    <Login/>
+                </section>
+                
                 <section className="header">
                     
                 </section>
