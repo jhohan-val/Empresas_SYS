@@ -6,11 +6,12 @@ const Main = ()  =>{
     return (
             <main>
                 <section className="header">
-                    <Header/>
-                    <Login/>
-                    <Footer/>
+                    
                 </section>
 
+                <section className="footer">
+
+                </section>
 
             </main>  
     )
