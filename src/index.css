@@ -3,71 +3,168 @@
 
 * {
   font-family: 'JetBrains Mono', monospace;
-  width: 100vw;
+  margin: 0%;
+  padding: 0%;
+}
+
+main{
+  width: 100%;
   height: 100vh;
-  background: transparent linear-gradient(118deg, #C69749 0%, #000000BD 100%, #000000 100%) 0% 0% no-repeat padding-box;
+  background-color: #C59649;
+/*   background: transparent linear-gradient(118deg, #C69749 0%, #000000BD 100%, #000000 100%) 0% 0% no-repeat padding-box;
+ */}
+
+/* LOGIN */
+
+/* .login-form{
+  background-color: #000000;
+  width: 550px;
+  height: 600px;
+  opacity: 0.48;
+  border-radius: 20px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 18px 3px 30px #00000029;
 }
 
-/* .navbar{
-  top: 0px;
-  left: 0px;
-  width: 1920px;
-  height: 171px;
-  background: transparent linear-gradient(94deg, #000000E0 0%, #010100C7 10%, #C59649 69%, #C69749 76%, #C69749 100%) 0% 0% no-repeat padding-box;
-  border-radius: 0px 0px 200px 200px;
-  opacity: 1;
+.usuario, .contraseña {
+  width: 400px;
+  height: 50px;
+  border-radius: 42px;
+  border-bottom: 1px solid #C69749;
+  color: white;
+  opacity: 0.36;
+  background-color: transparent;
+  text-align: center;
 }
 
-.texto-header1{
-  top: 58px;
-  left: 457px;
-  width: 72px;
-  height: 40px;
-  text-align: left;
-  font: normal normal 200 30px/40px JetBrains Mono;
-  letter-spacing: 0px;
-  color: #FFFFFF;
-  opacity: 1;
+.usuario{
+  margin-top: 10px;
 }
 
-.texto-header2{
-  top: 58px;
-  left: 653px;
-  width: 144px;
-  height: 40px;
-  text-align: left;
-  font: normal normal 200 30px/40px JetBrains Mono;
-  letter-spacing: 0px;
-  color: #FFFFFF;
-  opacity: 1;
+.contraseña{
+  margin-top: 50px;
 }
 
-.texto-header3{
-  top: 58px;
-  left: 945px;
-  width: 162px;
-  height: 40px;
-  text-align: left;
-  font: normal normal 200 30px/40px JetBrains Mono;
-  letter-spacing: 0px;
-  color: #FFFFFF;
-  opacity: 1;
+.logo-login{
+  width: 300px;
+  height: 300px;
+  margin-top: -30px;
 }
 
-.texto-header4{
-  top: 58px;
-  left: 1261px;
-  width: 198px;
-  height: 40px;
-  text-align: left;
-  font: normal normal 200 30px/40px JetBrains Mono;
-  letter-spacing: 0px;
-  color: #FFFFFF;
-  opacity: 1;
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.btn-iniciar{
+  width: 200px;
+  height: 50px;
+  border-radius: 42px;
+  border: 1px solid #C69749;
+  cursor: pointer;
+  opacity: 0.36;
+  background-color: transparent;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  font-weight: bold;
+  transition: 0.6s ease-in-out all;
+}
+
+.btn-iniciar:hover{
+  background-color: #C69749;
+  color: white;
+  transition: 0.6s ease-in-out all; 
 } */
 
+/* HEADER */
 
+.navbar{
+  width: 100%;
+  height: 170px;
+  background: transparent linear-gradient(94deg, #000000E0 0%, #010100C7 10%, #C59649 69%, #C69749 76%, #C69749 100%) 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 200px 200px;
+  color: white;
+}
 
+.logo-header{
+  width: 170px;
+  height: 170px;
+  margin-top: -20px;
+  margin-left: 70px;
+}
 
+.btn-perfil{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px 50px 50px 50px;
+  filter: drop-shadow(1px 1px 5px #151414);
+  transition: 0.5s;
+}
 
+.btn-perfil:hover{
+  transform: scale(1.1);
+}
+
+.card-clientes, .card-productos{
+  width: 380px;
+  height: 330px;
+  background-color: #000000;
+  opacity: 0.36;
+  box-shadow: 18px 3px 30px #00000029;
+  border: 1px solid #707070;
+  border-radius: 20px 20px 0px 0px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icono-cliente, .icono-productos{
+  width: 210px;
+  height: 210px;
+  padding-top: 20px;
+}
+
+.texto-clientes, .texto-productos{
+  width: 380px;
+  height: 170px;
+  background-color: rgba(255, 255, 255, 0.817);
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 20px;
+  color: #C69749;
+  font: normal normal normal 18px/23px JetBrains Mono;
+  letter-spacing: 0px;
+}
+
+.btn-acceder{
+  width: 150px;
+  height: 45px;
+  background-color: white;
+  color: #C69749;
+  border-radius: 42px;
+  text-align: center;
+  border: none;
+  transition: 0.6s ease-in-out all;
+  
+}
+
+.btn-acceder:hover{
+  background-color: #C69749;
+  color: white;
+  transition: 0.6s ease-in-out all;
+}
 
