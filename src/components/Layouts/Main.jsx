@@ -25,7 +25,7 @@ const Main = ()  =>{
                 </section>
                 
                 <section className="footer">
-                <Footer/>
+                    <Footer/>
                 </section>
             </main> 
 
