@@ -9,6 +9,7 @@
 body{
   padding-bottom: 13em;
   position: relative;
+  background-color: #c59649;
 }
 
 main {
@@ -253,6 +254,9 @@ a:active {
 /*VISTA CLIENTES */
 
 .aside-clientes{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   width: 235px;
   height: 856px;
   background-color: #000000;
@@ -262,6 +266,8 @@ a:active {
   color: white;
   top: 204px;
   left: 32px;
+  margin: 2%;
+  gap: 15%;
 }
 
 .btn-agregar {

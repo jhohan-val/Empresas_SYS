@@ -7,7 +7,7 @@ const AsideClientes = () => {
         <section>
             <aside className="aside-clientes">
                 <IconoClientes/>
-                <h3>Clientes</h3>
+                <h3 class="h3Clientes">Clientes</h3>
                 <BtnAgregar/>
                 <BtnVer/>
             </aside>
