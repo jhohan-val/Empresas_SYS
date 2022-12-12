@@ -1,4 +1,4 @@
-import BtnAgregar from "../Botones/BtnAgregar";
+import BtnRegistar from "../Botones/BtnRegistar BtnRegistar";
 import BtnVer from "../Botones/BtnVer";
 import IconoClientes from "../imagenes/IconoClientes";
 
@@ -8,7 +8,7 @@ const AsideClientes = () => {
             <aside>
                 <IconoClientes/>
                 <h3>Clientes</h3>
-                <BtnAgregar/>
+                <BtnRegistar/>
                 <BtnVer/>
             </aside>
         </section>
