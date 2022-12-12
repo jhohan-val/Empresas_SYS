@@ -7,34 +7,59 @@ const crearProveedor = async (req, res)=>{
             message: 'Proveedor creado correctamente'
         })
     } catch (error) {
-        res.json({
-            message: 'No se pudo registrar' + error 
-        })
+        res.json({ message: 'No se pudo registrar' + error })
     }
 }
 
-async function mostrarProveedores (req, res) {
+const mostrarProveedores = async  (req, res) => {
     try {
         const proveedores = await Proveedores.findAll()
         res.json(proveedores)
     } catch (error) {
-        res.json({
-        Message: 'base de datos vacia'
-    })
+        res.json({ Message: 'Base de datos vacia.' })
     }
 }
 
 const mostrarProveedor = async (req, res)=>{
     try {
-        const proveedores= await Proveedores.findOne({where: {id: req.params.id}})
+        const proveedores= await Proveedores.findOne({
+            where: {id: req.params.id}
+        })
         res.json(proveedores)
     } catch (error) {
-        res.json({
-            Message: 'El Proveedor no existe en la base de datos' + error
+        res.json({ message: 'El Proveedor no existe en la base de datos.' + error })
+    }
+}
+
+const editarProveedor = async (req, res) => {
+    try {
+        Proveedores.update(req.body, {
+            where: { id: req.params.id }
         })
+        res.json({
+            message: 'Proveedor editado correctamente'
+        })
+    } catch (error) { 
+        res.json({ message: 'No se pudo editar' + error })
+    }
+}
+
+const eliminarProveedor = async (req, res) => {
+    try {
+        await Proveedores.destroy({
+            where: { id: req.params.id }
+        })
+        res.json({ message: 'Proveedor eliminado correctamente'
+        })
+    } catch (error) {
+        res.json({ message: 'No se pudo eliminar' + error })
     }
 }
 
 export {
-    crearProveedor, mostrarProveedores, mostrarProveedor
+    crearProveedor, 
+    mostrarProveedores, 
+    mostrarProveedor, 
+    editarProveedor,
+    eliminarProveedor
 }

@@ -13,7 +13,7 @@ const crearCliente = async (req, res)=>{
     }
 }
 
-async function mostrarClientes (req, res) {
+const mostrarClientes = async (req, res) => {
     try {
         const clientes = await Clientes.findAll()
         res.json(clientes)
