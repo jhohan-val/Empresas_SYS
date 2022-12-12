@@ -5,9 +5,9 @@ import IconoClientes from "../imagenes/IconoClientes";
 const AsideClientes = () => {
     return(
         <section className="clientes">
-            <aside className="aside-clientes">
+            <aside>
                 <IconoClientes/>
-                <h3 class="h3clientes">Clientes</h3>
+                <h3>Clientes</h3>
                 <BtnAgregar/>
                 <BtnVer/>
             </aside>

@@ -5,7 +5,7 @@ import IconoProveedores from "../imagenes/IconoProveedores";
 const AsideProveedores = () => {
     return(
         <section>
-            <aside className="aside-proveedores">
+            <aside>
                 <IconoProveedores/>
                 <h3>Proveedores</h3>
                 <BtnAgregar/>

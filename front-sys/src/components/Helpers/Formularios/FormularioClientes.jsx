@@ -1,8 +1,8 @@
 const FormularioClientes = () => {
     return(
-        <section className="registro-clientes">
-            <form className="form-clientes" action="">
-                <h1 className="titulo-clientes">Registrando Clientes</h1>
+        <section className="registro">
+            <form action="">
+                <h1 className="titulo">Registrando Clientes</h1>
                 <input class="form-item" placeholder="Nombre" type="text" />
                 <input class="form-item" placeholder="Documento" type="text" />
                 <input class="form-item" placeholder="Correo" type="email" />

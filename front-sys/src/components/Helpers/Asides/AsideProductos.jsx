@@ -4,10 +4,10 @@ import IconoProductos from "../imagenes/IconoProductos";
 
 const AsideProductos = () => {
     return(
-        <section>
-            <aside className="aside-productos">
+        <section className="productos">
+            <aside >
                <IconoProductos/>
-                <h3 className="h3productos">Productos</h3>
+                <h3>Productos</h3>
                 <BtnAgregar/>
                 <BtnVer/>
             </aside>
