@@ -1,9 +1,7 @@
 const BtnAgregar = () => {
     return (
-        <section>
-            <button>
+        <section>            
             <input  className="btn-agregar" type="button" value="Agregar" placeholder="Agregar"/>
-            </button>
         </section>
     )
 }

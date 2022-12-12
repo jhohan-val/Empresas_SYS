@@ -31,10 +31,8 @@ const Main = ()  =>{
                 <section className="vista-clientes">
          
                 <AsideClientes/>
-                {/* <FormularioClientes/>
-                <TablaClientes/> */}
-             
-                {/* <TablaClientes/> */}
+                <FormularioClientes/>
+              
                     
                 </section>
                 

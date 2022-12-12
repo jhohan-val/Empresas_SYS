@@ -8,19 +8,19 @@
 
 body{
   position: relative;
-  background-color: #c69649
+  background-color: #c69649;
 }
 
 main {
   width: 100%;
   height: 98%;
-  background-color: #c59649;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   /*   background: transparent linear-gradient(|118deg, #C69749 0%, #000000BD 100%, #000000 100%) 0% 0% no-repeat padding-box;
  */
+ /* background-color: #2b2a2e; */
 }
-
-
-
 
 /* LOGIN */
 
@@ -262,39 +262,44 @@ a:active {
 /*VISTA CLIENTES */
 
 .vista-clientes{
-  width: 90%;
+  width: 96%;
   height: 80vh;
   margin-top: 1px;
   display: flex;
-  align-items: center;
-  background-color: aliceblue;
+  justify-content: center;
+  justify-content: space-evenly;
+ /*  background-color: aliceblue;   */
 }
 
 .aside-clientes{
-  width: 235px;
-  height: 600px;
+  width: 10vw;
+  height: 76vh;
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   background-color: #000000;
   opacity: 0.35;
   box-shadow: 18px 3px 34px #00000029;
   border-radius: 20px 20px 0px 0px;
   color: white;
-  left: 32px;
-  margin: 2%;
-  gap: 15%;
+  margin: 8%;
+  gap: 10%;
+  margin-top: 58px;
+  margin-left: 2px;
 }
 
 .btn-agregar {
-  width: 150px;
-  height: 45px;
+  width: 200px;
+  height: 60px;
   background-color: white;
   color: #c69749;
   border-radius: 42px;
   text-align: center;
   border: none;
   transition: 0.6s ease-in-out all;
+  margin-top: 90px;
+  font-size: 30px;
 }
 
 .btn-agregar:hover {
@@ -304,14 +309,16 @@ a:active {
 }
 
 .btn-ver{
-  width: 150px;
-  height: 45px;
+  width: 200px;
+  height: 60px;
   background-color: white;
-  color: #c69649;
+  color: #c69749;
   border-radius: 42px;
   text-align: center;
   border: none;
-  transition: 0.6 ease-in-out all;
+  transition: 0.6s ease-in-out all;
+  margin-top: 90px;
+  font-size: 30px;
 }
 
 .btn-ver:hover{
@@ -321,10 +328,73 @@ a:active {
 }
 
 .icono-cliente {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   padding-top: 20px;
 }
 
+.registro-clientes{
+  width: 90vw;
+  height: 76vh;
+  background: #000000 0% 0% no-repeat padding-box;
+  box-shadow: 18px 3px 34px #00000029;
+  border: 1px solid #000000;
+  border-radius: 20px 20px 205px 0px;
+  opacity: 0.4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2%;
+  gap: 15%;
+  margin-top: 58px;
+  margin-right: 1px;
+}
 
+.form-clientes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  
+}
 
+.form-item{
+  width: 60vw;
+  height: 80px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 5px solid #c69649;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  font-size: 40px;
+  color: white;
+  margin-top: 20px;
+}
+
+.titulo-clientes{
+  color: white;
+  font-size: 80px;
+}
+
+.btn-form-clientes{
+  width: 200px;
+  height: 80px;
+  background-color: white;
+  color: #c69749;
+  border-radius: 42px;
+  text-align: center;
+  border: none;
+  transition: 0.6s ease-in-out all;
+  margin-top: 90px;
+  font-size: 30px;
+}
+
+.btn-form-clientes:hover {
+  background-color: #c69749;
+  color: white;
+  transition: 0.6s ease-in-out all;
+}
