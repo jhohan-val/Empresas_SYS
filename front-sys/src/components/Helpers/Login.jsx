@@ -4,7 +4,6 @@ import LogoLogin from "./imagenes/LogoLogin";
 const Login = () => {
     return(
         <section className="login" id="login">
-
             <form className="login-form" id="login-form" action="">
                 <LogoLogin/>
                 <input className="usuario" id="usuario" placeholder="Usuario" type="text" />

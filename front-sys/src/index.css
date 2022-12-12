@@ -195,14 +195,18 @@ a:active {
 
 /* CARDS */
 
-/* .cards {
-  width: 1000px;
+.cards {
+/*   width: 1000px;
   display: flex;
   align-items: center;
   gap: 200px;
   margin: 200px;
-  margin-left: 350px;
-  
+  margin-left: 350px; */
+  width: 96%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .card-clientes,
@@ -218,7 +222,7 @@ a:active {
   text-align: center;
 }
 
-.icono-cliente,
+.icono-clientes,
 .icono-productos,
 .icono-proveedores {
   width: 180px;
@@ -260,7 +264,7 @@ a:active {
 }
 
 /* BOTONES AGREGAR Y VER */
-.btn-agregar {
+/* .btn-agregar {
   width: 200px;
   height: 60px;
   background-color: white;
@@ -300,14 +304,12 @@ a:active {
 
 /*VISTA CLIENTES */
 
-.vista-clientes, .vista-productos, .vista-proveedores{
+/* .vista-clientes, .vista-productos, .vista-proveedores{
   width: 96%;
   height: 80vh;
-  /* margin-top: 10px; */
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
-/*   background-color: aliceblue;   */
 }
 
 aside{
@@ -401,5 +403,5 @@ form{
   background-color: #c69749;
   color: white;
   transition: 0.6s ease-in-out all;
-}
+} */
 
