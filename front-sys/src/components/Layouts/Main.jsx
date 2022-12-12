@@ -14,7 +14,7 @@ const Main = ()  =>{
                 </section> */}
 
                                                      {/* PRINCIPAL */}
-          {/*   <Principal/>     */}
+            <Principal/>    
 
                                                     {/*CLIENTES */}
                {/* <Clientes/>      */}
