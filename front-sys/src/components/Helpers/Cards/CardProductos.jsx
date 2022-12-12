@@ -9,7 +9,7 @@ const CardProductos = () => {
         <h3>Productos</h3>
       </article>
       <article className="texto-productos">
-        <p>Esta tarjeta te permitirá agregar, editar y eliminar tus productos</p>
+        <p>Esta tarjeta te permitirá agregar, editar y eliminar tus <i><b>productos</b></i></p>
         <BtnAcceder/>
       </article>
     </section>    

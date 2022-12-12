@@ -18,10 +18,14 @@ const Main = ()  =>{
                     <Header/>  
                 </section>
 
-                <section className="cards">
+                {/* <section className="cards">
                     <CardClientes/>
                     <CardProductos/>
                     <CardProveedores/>
+                </section> */}
+
+                <section className="tablas">
+                    
                 </section>
                 
                 <section className="footer">

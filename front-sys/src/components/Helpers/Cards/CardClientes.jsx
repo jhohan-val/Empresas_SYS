@@ -10,7 +10,7 @@ const CardClientes = () => {
       <h3>Clientes</h3>
     </article>
     <article className="texto-clientes">
-      <p>Esta tarjeta te permitirá agregar, editar y eliminar tus clientes</p>
+      <p>Esta tarjeta te permitirá agregar, editar y eliminar tus <i><b>clientes</b></i></p>
       <BtnAcceder/>
     </article>
   </section>

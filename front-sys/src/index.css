@@ -14,6 +14,9 @@ main {
  */
 }
 
+
+
+
 /* LOGIN */
 
 /* .login-form{
@@ -105,6 +108,12 @@ main {
 
 a {
   color: #ffffff;
+  font-size: 20px;
+
+}
+
+a:hover { 
+  color: #c69749; 
 }
 
 a:link,
@@ -135,42 +144,74 @@ a:active {
   transform: scale(1.1);
 }
 
-.cards {
-  width: 1000px;
-  position: relative;
+/* FOOTER */
+
+.footer-basic {
+  margin-top: 224px;
+  left: 0px;
+  width: 100%;
+  height: 120px;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+  background: transparent linear-gradient(94deg,#000000e0 0%, #010100c7 10%, #c59649 69%, #c69749 76%, #c69749 100% ) 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 200px 200px;  
+}
+
+.footer-iconos{
   display: flex;
-  justify-content: space-between;
-  gap: 50px;
-  margin-left: 130px;
-  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  margin-bottom: 20%;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+
+.iconos-redes{
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+  margin-top: -80px;
+  transition: 0.5s;
+}
+
+.iconos-redes:hover{
+  transform: scale(1.1);
+}
+
+/* CARDS */
+
+/* .cards {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  margin: 200px;
+  margin-left: 350px;
+  
 }
 
 .card-clientes,
-.card-productos {
+.card-productos, .card-proveedores {
   width: 320px;
   height: 250px;
   background-color: #000000;
-  opacity: 0.36;
+  opacity: 0.35;
   box-shadow: 18px 3px 30px #00000029;
   border: 1px solid #707070;
   border-radius: 20px 20px 0px 0px;
   color: white;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .icono-cliente,
 .icono-productos,
 .icono-proveedores {
-  width: 210px;
+  width: 180px;
   height: 180px;
   padding-top: 20px;
 }
 
 .texto-clientes,
-.texto-productos {
+.texto-productos, .texto-proveedores {
   width: 320px;
   height: 170px;
   background-color: rgba(255, 255, 255, 0.817);
@@ -200,34 +241,8 @@ a:active {
   background-color: #c69749;
   color: white;
   transition: 0.6s ease-in-out all;
-}
+} */
 
-/* FOOTER */
+/* TABLAS */
 
-.footer-basic {
-  width: 100%;
-  height: 120px;
-  background: transparent linear-gradient(94deg,#000000e0 0%, #010100c7 10%, #c59649 69%, #c69749 76%, #c69749 100% ) 0% 0% no-repeat padding-box;
-  border-radius: 200px 200px 0px 0px;  
-}
-
-.footer-iconos{
-  display: flex;
-  justify-content: center;
-  gap: 5%;
-}
-
-.iconos-redes{
-  margin-top: 20px;
-  width: 50px;
-  height: 50px;
-
-}
-
-.texto-footer{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 15px;
-}
 
