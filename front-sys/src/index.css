@@ -114,11 +114,12 @@ main {
 .logo{
   width: 50px;
   margin-left: 50px;
+  margin-top: -20px;
 }
 
 a {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 30px;
   transition: 0.5s;
 }
 
@@ -259,36 +260,7 @@ a:active {
   transition: 0.6s ease-in-out all;
 }
 
-/*VISTA CLIENTES */
-
-.vista-clientes{
-  width: 96%;
-  height: 80vh;
-  margin-top: 1px;
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
- /*  background-color: aliceblue;   */
-}
-
-.aside-clientes{
-  width: 10vw;
-  height: 76vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #000000;
-  opacity: 0.35;
-  box-shadow: 18px 3px 34px #00000029;
-  border-radius: 20px 20px 0px 0px;
-  color: white;
-  margin: 8%;
-  gap: 10%;
-  margin-top: 58px;
-  margin-left: 2px;
-}
-
+/* BOTONES AGREGAR Y VER */
 .btn-agregar {
   width: 200px;
   height: 60px;
@@ -327,10 +299,44 @@ a:active {
   transition: 0.6s ease-in-out all;
 }
 
+/*VISTA CLIENTES */
+
+.vista-clientes{
+  width: 96%;
+  height: 80vh;
+  /* margin-top: 10px; */
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+ /*  background-color: aliceblue;   */
+}
+
+.aside-clientes{
+  width: 10vw;
+  height: 76vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000;
+  opacity: 0.35;
+  box-shadow: 18px 3px 34px #00000029;
+  border-radius: 205px 20px 20px 205px;
+  color: white;
+  margin: 8%;
+  gap: 10%;
+  margin-top: 58px;
+  margin-left: 2px;
+}
+
 .icono-cliente {
   width: 200px;
   height: 200px;
   padding-top: 20px;
+}
+
+.h3clientes, .h3productos{
+  font-size: 40px;
 }
 
 .registro-clientes{
@@ -339,7 +345,7 @@ a:active {
   background: #000000 0% 0% no-repeat padding-box;
   box-shadow: 18px 3px 34px #00000029;
   border: 1px solid #000000;
-  border-radius: 20px 20px 205px 0px;
+  border-radius: 20px 205px 205px 20px;
   opacity: 0.4;
   display: flex;
   align-items: center;
@@ -398,3 +404,4 @@ a:active {
   color: white;
   transition: 0.6s ease-in-out all;
 }
+
