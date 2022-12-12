@@ -1,3 +1,4 @@
+import { Sequelize } from "sequelize";
 import Clientes from "../models/ModelCliente.js";
 
 const crearCliente = async (req, res)=>{
@@ -35,6 +36,41 @@ const mostrarCliente = async (req, res)=>{
     }
 }
 
+const editarCliente = async (req, res) => {
+    try {
+        Clientes.update(req.body, {
+            where: { id: req.params.id }
+        })
+        res.json({
+            message: 'Cliente editado correctamente'
+        })
+    } catch (error) { 
+        res.json({ message: 'No se pudo editar' + error })
+    }
+}
+
+const eliminarCliente = async (req, res) => {
+    const { Op } = Sequelize
+    try {
+        await Clientes.destroy({
+            where: {
+                [Op.or]: [
+                {id: req.params.id },
+                {documento: req.params.id }
+                ]
+            }
+        })
+        res.json({ message: 'Cliente eliminado correctamente'
+        })
+    } catch (error) {
+        res.json({ message: 'No se pudo eliminar' + error })
+    }
+}
+
 export {
-    crearCliente, mostrarClientes, mostrarCliente
+    crearCliente, 
+    mostrarClientes, 
+    mostrarCliente,
+    editarCliente,
+    eliminarCliente
 }

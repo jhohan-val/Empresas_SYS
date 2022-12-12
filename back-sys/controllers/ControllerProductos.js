@@ -34,7 +34,35 @@ const mostrarProducto = async (req, res)=>{
         })
     }
 }
+const editarProducto = async (req, res) => {
+    try {
+        Productos.update(req.body, {
+            where: { id: req.params.id }
+        })
+        res.json({
+            message: 'Producto editado correctamente'
+        })
+    } catch (error) { 
+        res.json({ message: 'No se pudo editar' + error })
+    }
+}
+
+const eliminarProducto = async (req, res) => {
+    try {
+        await Productos.destroy({
+            where: { id: req.params.id }
+        })
+        res.json({ message: 'Producto eliminado correctamente'
+        })
+    } catch (error) {
+        res.json({ message: 'No se pudo eliminar' + error })
+    }
+}
 
 export {
-    crearProdcuto, mostrarProductos, mostrarProducto
+    crearProdcuto, 
+    mostrarProductos,
+    mostrarProducto,
+    editarProducto,
+    eliminarProducto
 }
