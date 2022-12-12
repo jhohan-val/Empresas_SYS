@@ -1,15 +1,6 @@
-import BtnAgregar from "../Botones/BtnAgregar";
-import IconoClientes from "../imagenes/IconoClientes";
-
 const TablaClientes = () => {
     return(
         <section className="clientes" id="clientes">
-
-            <aside className="aside-clientes">
-                <IconoClientes/>
-                <h3>Clientes</h3>
-                <BtnAgregar/>
-            </aside>
 
             <table class="tabla-clientes" id="tabla-clientes">
                         <thead class="thead">
