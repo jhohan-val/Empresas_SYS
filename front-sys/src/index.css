@@ -7,14 +7,13 @@
 }
 
 body{
-  padding-bottom: 13em;
   position: relative;
-  background-color: #c59649;
+  background-color: #c69649
 }
 
 main {
   width: 100%;
-  height: 100%;
+  height: 98%;
   background-color: #c59649;
   /*   background: transparent linear-gradient(118deg, #C69749 0%, #000000BD 100%, #000000 100%) 0% 0% no-repeat padding-box;
  */
@@ -98,7 +97,7 @@ main {
 
 .navbar {
   width: 100%;
-  height: 120px;
+  height: 10vh;
   background: transparent
     linear-gradient(
       94deg,
@@ -112,14 +111,20 @@ main {
   border-radius: 0px 0px 200px 200px;
 }
 
+.logo{
+  width: 50px;
+  margin-left: 50px;
+}
+
 a {
   color: #ffffff;
   font-size: 20px;
-
+  transition: 0.5s;
 }
 
 a:hover { 
   color: #c69749; 
+  transform: scale(1.1);
 }
 
 a:link,
@@ -130,10 +135,15 @@ a:active {
 }
 
 .logo-header {
-  width: 150px;
-  height: 160px;
-  margin-top: -40px;
+  width: 100px;
+  height: 70px;
+  margin-top: 10px;
   margin-left: 60px;
+}
+
+.logo{
+  width: 100px;
+  height: 70px;
 }
 
 .btn-perfil {
@@ -154,22 +164,21 @@ a:active {
 
 .footer-basic {
   width: 100%;
-  height: 120px;
-  margin-top: 224px;
-  left: 0px;
+  height: 10vh;
+  margin-top: 0px;
   transform: matrix(-1, 0, 0, -1, 0, 0);
   background: transparent linear-gradient(94deg,#000000e0 0%, #010100c7 10%, #c59649 69%, #c69749 76%, #c69749 100% ) 0% 0% no-repeat padding-box;
   border-radius: 0px 0px 200px 200px;  
-  padding: 1.5em 0;
-  position: absolute;
+  padding: 1.5em ;
 }
 
 .footer-iconos{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -7px;
   gap: 200px;
-  margin-bottom: 20%;
+ 
   transform: matrix(-1, 0, 0, -1, 0, 0);
 }
 
@@ -177,12 +186,11 @@ a:active {
   margin-top: 20px;
   width: 60px;
   height: 60px;
-  margin-top: -80px;
   transition: 0.5s;
 }
 
 .iconos-redes:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
 } 
 
 /* CARDS */
@@ -253,18 +261,26 @@ a:active {
 
 /*VISTA CLIENTES */
 
+.vista-clientes{
+  width: 90%;
+  height: 80vh;
+  margin-top: 1px;
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+}
+
 .aside-clientes{
+  width: 235px;
+  height: 600px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 235px;
-  height: 600px;
   background-color: #000000;
   opacity: 0.35;
   box-shadow: 18px 3px 34px #00000029;
   border-radius: 20px 20px 0px 0px;
   color: white;
-  top: 204px;
   left: 32px;
   margin: 2%;
   gap: 15%;
