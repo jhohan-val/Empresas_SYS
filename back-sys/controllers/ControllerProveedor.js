@@ -1,4 +1,4 @@
-import Proveedores from "../models/modelProveedores.js"
+import Proveedores from "../models/ModelProveedores.js"
 
 const crearProveedor = async (req, res)=>{
     try {

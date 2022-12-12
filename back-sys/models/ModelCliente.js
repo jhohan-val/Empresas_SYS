@@ -1,5 +1,5 @@
 import { DataTypes } from "sequelize";
-import dataBaseClientes from "../database/databaseClientes.js";
+import dataBaseClientes from "../database/dataBase.js";
 
 const Clientes = dataBaseClientes.define('clientes', {
     nombre: {

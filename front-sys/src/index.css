@@ -2,8 +2,13 @@
 
 * {
   font-family: "JetBrains Mono", monospace;
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  padding-bottom: 13em;
+  position: relative;
 }
 
 main {
@@ -154,6 +159,8 @@ a:active {
   transform: matrix(-1, 0, 0, -1, 0, 0);
   background: transparent linear-gradient(94deg,#000000e0 0%, #010100c7 10%, #c59649 69%, #c69749 76%, #c69749 100% ) 0% 0% no-repeat padding-box;
   border-radius: 0px 0px 200px 200px;  
+  padding: 1.5em 0;
+  position: absolute;
 }
 
 .footer-iconos{

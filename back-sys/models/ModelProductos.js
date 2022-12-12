@@ -1,25 +1,25 @@
 import { DataTypes } from "sequelize";
-import dataBaseClientes from "../database/databaseClientes.js";
+import dataBaseClientes from "../database/dataBase.js";
 
-const Proveedores = dataBaseClientes.define('proveedores', {
+const Productos = dataBaseClientes.define('productos', {
     nombre: {
         type: DataTypes.STRING
     }, 
-    nit: {
+    fragancia: {
         type: DataTypes.STRING
     },
-    correo: {
+    referencia: {
         type: DataTypes.STRING
     },
-    direccion: {
+    tamaño: {
         type: DataTypes.STRING
     },
-    telefono: {
+    cantidad: {
         type: DataTypes.STRING
     },
-    producto: {
+    fabricante: {
         type: DataTypes.STRING
     }
 });
 
-export default Proveedores
+export default Productos
