@@ -30,18 +30,26 @@ const Main = ()  =>{
                 </section> */}
 
                                                                                     {/*CLIENTES */}
-                <section className="agregar-clientes">
+                <section className="vista-clientes">
+                <section className="aside-agg-clientes">
                     <AsideClientes/>
-                    <TablaClientes/>
+                </section>
+                <section form-clientes>
+
+                </section>
+
+                <section className="tabla-clientes">
+
+                </section>
                 </section>
                 
                                                                                     {/* PRODUCTOS */}
-                <section className="agregar-productos">
+                {/* <section className="agregar-productos">
 
-                </section>
+                </section> */}
 
                                                                                     {/* PROVEEDORES */}
-                <section className="agregar-proveedores"></section>
+                {/* <section className="agregar-proveedores"></section> */}
                 
 
                                                                                     {/* FOOTER */}
@@ -49,8 +57,6 @@ const Main = ()  =>{
                     <Footer/>
                 </section>
             </main> 
-
-                
 
         </section>
     )

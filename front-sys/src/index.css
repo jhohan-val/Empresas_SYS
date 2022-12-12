@@ -183,7 +183,7 @@ a:active {
 
 .iconos-redes:hover{
   transform: scale(1.1);
-}
+} 
 
 /* CARDS */
 
@@ -249,7 +249,7 @@ a:active {
   background-color: #c69749;
   color: white;
   transition: 0.6s ease-in-out all;
-} */
+}
 
 /*VISTA CLIENTES */
 
@@ -258,7 +258,7 @@ a:active {
   align-items: center;
   flex-direction: column;
   width: 235px;
-  height: 856px;
+  height: 600px;
   background-color: #000000;
   opacity: 0.35;
   box-shadow: 18px 3px 34px #00000029;
