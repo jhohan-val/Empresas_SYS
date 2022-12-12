@@ -4,12 +4,12 @@ import IconoProveedores from "../imagenes/IconoProveedores";
 const CardProveedores = () => {
   return (
     <section>
-      <article className="card-productos">
+      <article className="card-proveedores">
         <IconoProveedores/>
         <h3>Proveedores</h3>
       </article>
-      <article className="texto-productos">
-        <p>Esta tarjeta te permitirá agregar, editar y eliminar tus proveedores</p>
+      <article className="texto-proveedores">
+        <p>Esta tarjeta te permitirá agregar, editar y eliminar tus <i><b>proveedores</b></i></p>
         <BtnAcceder/>
       </article>
     </section>
