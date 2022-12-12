@@ -9,4 +9,4 @@ const IconoProductos = () => {
     )
 }
 
-export default IconoProductos
+export default IconoProductos;

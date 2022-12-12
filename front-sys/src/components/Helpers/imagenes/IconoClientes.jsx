@@ -9,4 +9,4 @@ const IconoClientes = () => {
     )
 }
 
-export default IconoClientes
+export default IconoClientes;
