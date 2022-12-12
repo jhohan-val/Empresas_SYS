@@ -13,7 +13,7 @@ const crearProdcuto = async (req, res)=>{
     }
 }
 
-async function mostrarProductos (req, res) {
+const mostrarProductos = async  (req, res) => {
     try {
         const Prodcutos = await Productos.findAll()
         res.json(Prodcutos)
