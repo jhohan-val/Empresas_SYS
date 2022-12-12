@@ -1,64 +1,61 @@
 import AsideClientes from "../Helpers/Asides/AsideClientes";
+import AsideProductos from "../Helpers/Asides/AsideProductos";
 import CardClientes from "../Helpers/Cards/CardClientes";
 import CardProductos from "../Helpers/Cards/CardProductos";
 import CardProveedores from "../Helpers/Cards/CardProveedores";
 import Footer from "../Helpers/Footer";
+import FormularioClientes from "../Helpers/Formularios/FormularioClientes";
 import Header from "../Helpers/Header";
 import Login from "../Helpers/Login";
 import TablaClientes from "../Helpers/Tablas/TablaClientes";
+import TablaProveedores from "../Helpers/Tablas/TablaPoveedores";
+import TablaProductos from "../Helpers/Tablas/TablaProductos";
 
 const Main = ()  =>{
     return (
-        <section>
-            
-            <main>
+
+            <main >
                 {/* LOGIN */}
                 {/* <section className="login">
                     <Login/>
                 </section> */}
-                
-                {/* HEADER */}
-                <section className="header">
-                    <Header/>  
-                </section>
 
-                                                                                    {/* PRINCIPAL */}
+                                                     {/* PRINCIPAL */}
                 {/* <section className="cards">
                     <CardClientes/>
                     <CardProductos/>
                     <CardProveedores/>
                 </section> */}
 
-                                                                                    {/*CLIENTES */}
+                                                    {/*CLIENTES */}
                 <section className="vista-clientes">
-                <section className="aside-agg-clientes">
-                    <AsideClientes/>
-                </section>
-                <section form-clientes>
-
-                </section>
-
-                <section className="tabla-clientes">
-
-                </section>
+         
+                <AsideClientes/>
+                {/* <FormularioClientes/>
+                <TablaClientes/> */}
+             
+                {/* <TablaClientes/> */}
+                    
                 </section>
                 
-                                                                                    {/* PRODUCTOS */}
-                {/* <section className="agregar-productos">
 
+                                                    {/* PRODUCTOS */}
+                {/* <section className="vista-productos">
+                    <AsideProductos/>
+                    <TablaProductos/>  
+                </section> */}  
+                                                                                 
+                
+
+                                                   {/* PROVEEDORES */}
+                {/* <section className="vista-proveedores">
+                    <CardProveedores/>
+                    <TablaProveedores/>
                 </section> */}
-
-                                                                                    {/* PROVEEDORES */}
-                {/* <section className="agregar-proveedores"></section> */}
-                
-
-                                                                                    {/* FOOTER */}
-                <section className="footer">
-                    <Footer/>
-                </section>
+         
             </main> 
 
-        </section>
+      
     )
 }
 

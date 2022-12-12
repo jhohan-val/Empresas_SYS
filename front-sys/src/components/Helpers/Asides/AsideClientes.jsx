@@ -4,7 +4,7 @@ import IconoClientes from "../imagenes/IconoClientes";
 
 const AsideClientes = () => {
     return(
-        <section>
+        <section className="clientes">
             <aside className="aside-clientes">
                 <IconoClientes/>
                 <h3 class="h3Clientes">Clientes</h3>
