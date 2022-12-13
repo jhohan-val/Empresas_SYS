@@ -359,7 +359,7 @@ form{
   caption-side: bottom;
 }
 
-.td-clientes, .td-productos{
+.td-clientes, .td-productos, .td-proveedores{
   border-bottom: 1px solid #c69749;
   border-right: 1px solid #c69749;
 }
