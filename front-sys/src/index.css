@@ -17,12 +17,13 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
   /*   background: transparent linear-gradient(|118deg, #C69749 0%, #000000BD 100%, #000000 100%) 0% 0% no-repeat padding-box;
  */
  /* background-color: #2b2a2e; */
 }
 
-/* LOGIN */
+/* LOGIN 
 
 .login-form{
   background-color: #000000;
@@ -91,7 +92,7 @@ main {
   background-color: #C69749;
   color: white;
   transition: 0.6s ease-in-out all; 
-}
+} */
 
 /* HEADER */
 
@@ -194,13 +195,13 @@ a:active {
 
 /* CARDS */
 
-.cards {
+/* .cards {
 /*   width: 1000px;
   display: flex;
   align-items: center;
   gap: 200px;
   margin: 200px;
-  margin-left: 350px; */
+  margin-left: 350px; //
   width: 96%;
   height: 80vh;
   display: flex;
@@ -260,7 +261,7 @@ a:active {
   background-color: #c69749;
   color: white;
   transition: 0.6s ease-in-out all;
-}
+} */
 
 /* BOTONES AGREGAR Y VER */
 .btn-registrar {
@@ -404,3 +405,64 @@ form{
   transition: 0.6s ease-in-out all;
 }
 
+/* TABLA-CLIENTES*/
+
+.tabla-clientes{
+  width: 80vw;
+  height: 5vh;
+  background: #000000 0% 0% no-repeat padding-box;
+  box-shadow: 18px 3px 34px #00000029;
+  border-radius: 20px 20px 205px 0px;
+  opacity: 0.4;
+  margin: 2%;
+  gap: 15%;
+  margin-top: 29px;
+  margin-right: 1px;
+  color: white;
+}
+
+.thead, .tbody{
+  text-align: center;
+}
+
+.tr{
+  border-radius: 20px 20px 205px 0px;
+}
+
+.td-clientes{
+  border-bottom: 1px solid #c69749;
+  border-right: 1px solid #c69749;
+}
+
+.td-texto{
+  height: 30px;
+  text-align: center;
+  color: #c69649;
+}
+
+.img-editar, .img-eliminar{
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+}
+
+.btn-accion{
+  
+}
+
+.td-imagenes{
+  display: inline-block;
+  justify-content: center;
+  border-bottom: 1px solid #c69749;
+  border-right: 1px solid #c69749;
+}
+
+.img-editar, .img-eliminar {
+  border-radius: 40px 40px 40px 40px;
+  transition: 0.5s;
+  border: none;
+}
+
+.img-editar:hover, .img-eliminar:hover {
+  transform: scale(1.1);
+}
