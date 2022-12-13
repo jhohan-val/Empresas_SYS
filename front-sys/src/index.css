@@ -407,7 +407,7 @@ form{
 
 /* TABLA-CLIENTES*/
 
-.tabla-clientes{
+.tabla-clientes, .tabla-productos{
   width: 80vw;
   height: 5vh;
   background: #000000 0% 0% no-repeat padding-box;
@@ -430,7 +430,7 @@ form{
   caption-side: bottom;
 }
 
-.td-clientes{
+.td-clientes, .td-productos{
   border-bottom: 1px solid #c69749;
   border-right: 1px solid #c69749;
 }
@@ -460,3 +460,4 @@ form{
 .img-editar:hover, .img-eliminar:hover {
   transform: scale(1.1);
 }
+
