@@ -25,18 +25,14 @@ const TablaClientes = () => {
                         <td className="td-clientes">Calle 19</td>
                         <td className="td-clientes">Centro</td>
                         <td className="td-clientes">3117451454</td>
-                        <tr>
-                            <td className="td-imagenes">
-                            <BtnEliminar />
-                            </td>
-                            <td className="td-imagenes">
-                            <BtnEditar />
-                            </td>
-                        </tr>
+                        <td className="d-flex">
+                            <BtnEliminar/>
+                            <BtnEditar/>
+                        </td>
 
                     </tr>
                     <tr>
-                        <td className="td-texto">Cambio realizado con exito</td>
+                        <td className="caption">Cambio realizado con exito</td>
                     </tr>
 
                 </tbody>
