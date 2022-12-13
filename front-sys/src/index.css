@@ -334,7 +334,7 @@ form{
   transition: 0.6s ease-in-out all;
 }
 
-/* TABLA-CLIENTES*/
+/* TABLA-CLIENTES, TABLA PRODUCTOS*/
 
 .tabla-clientes, .tabla-productos{
   width: 80vw;
@@ -389,4 +389,6 @@ form{
 .img-editar:hover, .img-eliminar:hover {
   transform: scale(1.1);
 }
+
+
 

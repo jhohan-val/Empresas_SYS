@@ -1,3 +1,6 @@
+import BtnEditar from "../Botones/BtnEditar";
+import BtnEliminar from "../Botones/BtnEliminar";
+
 const TablaProductos = () => {
     return(
         <section className="productos" id="productos">
@@ -21,6 +24,10 @@ const TablaProductos = () => {
                         <td className="td-productos">Grande</td>
                         <td className="td-productos">10</td>
                         <td className="td-productos">Coco Chanel</td>
+                        <td className="d-flex">
+                            <BtnEliminar/>
+                            <BtnEditar/>
+                        </td>
                     </tr>
                 </tbody>
             </table>
