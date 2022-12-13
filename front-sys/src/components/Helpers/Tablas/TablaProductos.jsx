@@ -13,16 +13,14 @@ const TablaProductos = () => {
                         <td className="td-productos">Acción</td>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        
+                <tbody className="tbody">
+                    <tr className="tr">
                         <td className="td-productos">Blue</td>
                         <td className="td-productos">Dulce</td>
                         <td className="td-productos">81935</td>
                         <td className="td-productos">Grande</td>
                         <td className="td-productos">10</td>
                         <td className="td-productos">Coco Chanel</td>
-                        <td className="td-productos">Eliminar</td>
                     </tr>
                 </tbody>
             </table>
