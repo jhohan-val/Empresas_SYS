@@ -5,7 +5,6 @@ import Main from './components/Layouts/Main'
 import Header from './components/Helpers/Header'
 import Footer from './components/Helpers/Footer'
 
-
 function App() {
   const [count, setCount] = useState(0)
 

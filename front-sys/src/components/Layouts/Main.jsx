@@ -3,29 +3,22 @@ import Principal from "../Helpers/Principal";
 import Clientes from "../Helpers/Clientes";
 import Productos from "../Helpers/Productos";
 import Proveedores from "../Helpers/Proveedores";
+import { Routes, Route } from 'react-router-dom'
 
 const Main = ()  =>{
     return (
 
-            <main >
-                {/* LOGIN */}
-                {/* <section className="login">
-                    <Login/>
-                </section> */}
-
-                                                     {/* PRINCIPAL */}
-            <Principal/>    
-
-                                                    {/*CLIENTES */}
-               {/* <Clientes/>      */}
-
-                                                    {/* PRODUCTOS */}
-                {/* <Productos/> */}
-
-                                                   {/* PROVEEDORES */}
-               {/* <Proveedores/> */}
-
-            </main> 
+    <main >
+        <Routes>
+            <Route /* LOGIN */ path="/" element={<section className="login"><Login/></section>}>
+                <Route /* PRINCIPAL */ path="/" element={ <Principal/> }>
+                    <Route /*CLIENTES */ path="/clientes" element={ <Clientes/> }/>
+                    <Route /* PRODUCTOS */ path="/productos" element={ <Productos/> }/>
+                    <Route /* PROVEEDORES */ path="/proveedores" element={ <Proveedores/> }/>
+                </Route>
+            </Route>
+        </Routes>
+    </main> 
     )
 }
 

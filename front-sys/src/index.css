@@ -24,7 +24,7 @@ main {
 
 /* LOGIN */
 
-/* .login-form{
+.login-form{
   background-color: #000000;
   width: 550px;
   height: 600px;
@@ -91,7 +91,7 @@ main {
   background-color: #C69749;
   color: white;
   transition: 0.6s ease-in-out all; 
-} */
+}
 
 /* HEADER */
 
@@ -263,7 +263,7 @@ a:active {
 }
 
 /* BOTONES AGREGAR Y VER */
-/* .btn-registrar {
+.btn-registrar {
   width: 200px;
   height: 60px;
   background-color: white;
@@ -301,9 +301,9 @@ a:active {
   transition: 0.6s ease-in-out all;
 }
 
-/*VISTA CLIENTES */
+/* VISTA CLIENTES */
 
-/* .vista-clientes, .vista-productos, .vista-proveedores{
+.vista-clientes, .vista-productos, .vista-proveedores{
   width: 96%;
   height: 80vh;
   display: flex;
@@ -402,5 +402,5 @@ form{
   background-color: #c69749;
   color: white;
   transition: 0.6s ease-in-out all;
-} */
+}
 
