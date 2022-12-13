@@ -178,7 +178,6 @@ a:active {
   align-items: center;
   margin-top: -7px;
   gap: 200px;
- 
   transform: matrix(-1, 0, 0, -1, 0, 0);
 }
 
@@ -205,7 +204,7 @@ a:active {
   width: 96%;
   height: 80vh;
   display: flex;
- align-items: center;
+  align-items: center;
   justify-content: space-evenly;
 }
 
@@ -373,7 +372,7 @@ form{
   border: none;
   outline: none;
   border-bottom: 5px solid #c69649;
-  cursor: pointer;
+  cursor: text;
   text-align: center;
   background: none;
   font-size: 40px;
