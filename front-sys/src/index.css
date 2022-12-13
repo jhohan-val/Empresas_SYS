@@ -405,9 +405,9 @@ form{
   transition: 0.6s ease-in-out all;
 }
 
-/* TABLA-CLIENTES, TABLA PRODUCTOS*/
+/* TABLA-CLIENTES, TABLA PRODUCTOS, TABLA PROVEEDORES*/
 
-.tabla-clientes, .tabla-productos{
+.tabla-clientes, .tabla-productos, .tabla-proveedores{
   width: 80vw;
   height: 5vh;
   background: #000000 0% 0% no-repeat padding-box;
