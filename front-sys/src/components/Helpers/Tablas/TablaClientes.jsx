@@ -26,15 +26,10 @@ const TablaClientes = () => {
                         <td className="td-clientes">Centro</td>
                         <td className="td-clientes">3117451454</td>
                         <td className="d-flex">
-                            <BtnEliminar/>
-                            <BtnEditar/>
+                            <BtnEliminar />
+                            <BtnEditar />
                         </td>
-
                     </tr>
-                    <tr>
-                        <td className="caption">Cambio realizado con exito</td>
-                    </tr>
-
                 </tbody>
             </table>
         </section>

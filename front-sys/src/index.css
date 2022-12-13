@@ -421,21 +421,14 @@ form{
   color: white;
 }
 
+
 .thead, .tbody{
   text-align: center;
-  vertical-align: top;
+  vertical-align: middle;
   border-collapse: collapse;
   padding: 0.3em;
   caption-side: bottom;
 }
-
-.caption{
-  padding: 0.3em;
-  height: 30px;
-  text-align: center;
-  color: #c69649;
-}
-
 
 .td-clientes{
   border-bottom: 1px solid #c69749;
@@ -443,8 +436,8 @@ form{
 }
 
 .img-editar, .img-eliminar{
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   margin: 10%;
 }
 
@@ -454,9 +447,7 @@ form{
 }
 
 .td-imagenes{
-  display: inline-block;
   width: 100%;
-  justify-content: center;
   border-bottom: 1px solid #c69749;
   border-right: 1px solid #c69749;
 }
