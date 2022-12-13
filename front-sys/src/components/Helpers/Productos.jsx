@@ -6,7 +6,7 @@ const Productos = () =>{
     return(
         <section className="vista-productos">
                    <AsideProductos/>
-                   <FormularioProductos/>
+                   {/* <FormularioProductos/> */}
                    <TablaProductos/>
         </section>
     )
