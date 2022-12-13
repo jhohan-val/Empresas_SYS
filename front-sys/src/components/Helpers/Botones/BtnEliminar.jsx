@@ -1,9 +1,9 @@
+import btneliminar from '../../../../public/borrar.png'
+
 const BtnEliminar = () => {
     return(
-        <section>
-            <button>
-
-            </button>
+        <section className='btn-accion'>
+             <img className="img-eliminar" src={btneliminar} alt="eliminar" type="button" value="eliminar"/>
         </section>
     )
 }
