@@ -4,25 +4,25 @@ const TablaProductos = () => {
             <table className="tabla-productos" id="tabla-productos">
                 <thead className="thead">
                     <tr className="tr">
-                        <td>Nombre</td>
-                        <td>Fragancia</td>
-                        <td>Referencia</td>
-                        <td>Tamaño</td>
-                        <td>Cantidad</td>
-                        <td>Fabricante</td>
-                        <td>Acción</td>
+                        <td className="td-productos">Nombre</td>
+                        <td className="td-productos">Fragancia</td>
+                        <td className="td-productos">Referencia</td>
+                        <td className="td-productos">Tamaño</td>
+                        <td className="td-productos">Cantidad</td>
+                        <td className="td-productos">Fabricante</td>
+                        <td className="td-productos">Acción</td>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         
-                        <td>Blue</td>
-                        <td>Dulce</td>
-                        <td>81935</td>
-                        <td>Grande</td>
-                        <td>10</td>
-                        <td>Coco Chanel</td>
-                        <td>Eliminar</td>
+                        <td className="td-productos">Blue</td>
+                        <td className="td-productos">Dulce</td>
+                        <td className="td-productos">81935</td>
+                        <td className="td-productos">Grande</td>
+                        <td className="td-productos">10</td>
+                        <td className="td-productos">Coco Chanel</td>
+                        <td className="td-productos">Eliminar</td>
                     </tr>
                 </tbody>
             </table>
