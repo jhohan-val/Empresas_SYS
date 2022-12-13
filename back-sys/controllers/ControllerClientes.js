@@ -9,7 +9,7 @@ const crearCliente = async (req, res)=>{
         })
     } catch (error) {
         res.json({
-            message: 'No se pudo registrar' + error 
+            message: 'No se pudo registrar. ' + error 
         })
     }
 }
@@ -26,26 +26,40 @@ const mostrarClientes = async (req, res) => {
 }
 
 const mostrarCliente = async (req, res)=>{
+    const { Op } = Sequelize
     try {
-        const clientes = await Clientes.findOne({where: {id: req.params.id}})
+        const clientes = await Clientes.findOne({
+            where: {
+                [Op.or]: [
+                {id: req.params.id},
+                {document: req.params.id}
+                ]
+            }
+        })
         res.json(clientes)
     } catch (error) {
         res.json({
-            Message: 'El cliente no existe en la base de datos' + error
+            Message: 'El cliente no existe en la base de datos. ' + error
         })
     }
 }
 
 const editarCliente = async (req, res) => {
+    const { Op } = Sequelize
     try {
-        Clientes.update(req.body, {
-            where: { id: req.params.id }
+        await Clientes.update(req.body, {
+            where: {
+                [Op.or]: [
+                {id: req.params.id },
+                {documento: req.params.id }
+                ]
+            }
         })
         res.json({
             message: 'Cliente editado correctamente'
         })
     } catch (error) { 
-        res.json({ message: 'No se pudo editar' + error })
+        res.json({ message: 'No se pudo editar. ' + error })
     }
 }
 
@@ -63,7 +77,7 @@ const eliminarCliente = async (req, res) => {
         res.json({ message: 'Cliente eliminado correctamente'
         })
     } catch (error) {
-        res.json({ message: 'No se pudo eliminar' + error })
+        res.json({ message: 'No se pudo eliminar. ' + error })
     }
 }
 
