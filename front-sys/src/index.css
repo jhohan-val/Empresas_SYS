@@ -35,12 +35,6 @@ main {
   justify-content: center
 }
 
-.logo-header {
-  width: 80px;
-  height: 50px;
-  margin-top: 8px;
-  margin-right: 200px;
-}
 
 .container-fluid{
   display: flex;
@@ -99,7 +93,7 @@ a:active {
 /* CARDS */
 
 .cards {
-  gap: 130px;
+  gap: 150px;
   height: 80vh;
   display: flex;
   align-items: center;
@@ -213,6 +207,15 @@ p{
   justify-content: center;
   justify-content: space-evenly;
 }
+
+/* logo */
+
+.logo{
+  width: 135px;
+  margin-left: 50px;
+}
+
+
 
 /* ASIDE  */
 

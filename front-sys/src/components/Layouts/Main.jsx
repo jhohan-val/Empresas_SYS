@@ -3,6 +3,7 @@ import Clientes from "../Helpers/Clientes";
 import Productos from "../Helpers/Productos";
 import Proveedores from "../Helpers/Proveedores";
 import { Routes, Route } from 'react-router-dom'
+import LogoHeader from "../Helpers/imagenes/LogoHeader";
 
 const Main = () => {
     return (
