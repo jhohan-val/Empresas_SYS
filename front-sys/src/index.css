@@ -222,9 +222,9 @@ h3{
   font-size: 20px;
 }
 
-/* AGREGAR CLIENTES */
+/* AGREGAR CLIENTES, AGREGAR PRODUCTOS, AGREGAR PROVEEDORES */
 
-/* .registro{
+.registro{
   width: 70vw;
   height: 75vh;
   background: #000000 0% 0% no-repeat padding-box;
@@ -282,7 +282,7 @@ form{
   background-color: #c69749;
   color: white;
   transition: 0.6s ease-in-out all;
-} */
+}
 
 /* TABLA-CLIENTES, TABLA PRODUCTOS, TABLA PROVEEDORES*/
 

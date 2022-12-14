@@ -7,7 +7,7 @@ import Header from "../Header";
 const TablaProductos = () => {
     return(
         <section className="productos" id="productos">
-            <AsideProductos/>
+            {/* <AsideProductos/> */}
             <table className="tabla-productos" id="tabla-productos">
                 <thead className="thead">
                     <tr className="tr">
