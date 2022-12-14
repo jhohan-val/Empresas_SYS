@@ -42,14 +42,14 @@ main {
 }
 
 .logo{
-  width: 50px;
+  width: 30px;
   margin-left: 50px;
   margin-top: -20px;
 }
 
 a {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 20px;
   transition: 0.5s;
 }
 
@@ -62,14 +62,14 @@ a:link,
 a:visited,
 a:active {
   text-decoration: none;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .logo-header {
-  width: 100px;
-  height: 70px;
-  margin-top: 10px;
-  margin-left: 60px;
+  width: 80px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .logo{
@@ -78,12 +78,13 @@ a:active {
 }
 
 .btn-perfil {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   margin-top: -20px;
+  margin: 10px;
   border-radius: 50px 50px 50px 50px;
   transition: 0.5s;
-  margin-right: 60px;
+  margin-right: 70px;
   border: none;
 }
 
@@ -112,9 +113,8 @@ a:active {
 }
 
 .iconos-redes{
-  margin-top: -80px;
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   transition: 0.5s;
 }
 
@@ -124,23 +124,18 @@ a:active {
 
 /* CARDS */
 
-/* .cards {
-/*   width: 1000px;
-  display: flex;
-  align-items: center;
+.cards {
   gap: 200px;
-  margin: 200px;
-  margin-left: 350px; //
-  width: 96%;
   height: 80vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: -10px;
 }
 
 .card-clientes,
 .card-productos, .card-proveedores {
-  width: 320px;
+  width: 300px;
   height: 250px;
   background-color: #000000;
   opacity: 0.35;
@@ -154,14 +149,14 @@ a:active {
 .icono-clientes,
 .icono-productos,
 .icono-proveedores {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   padding-top: 20px;
 }
 
 .texto-clientes,
 .texto-productos, .texto-proveedores {
-  width: 320px;
+  width: 300px;
   height: 170px;
   background-color: rgba(255, 255, 255, 0.817);
   border-radius: 0px 0px 20px 20px;
@@ -172,12 +167,16 @@ a:active {
   padding-top: 20px;
   color: #c69749;
   font: normal normal normal 18px/23px JetBrains Mono;
-  letter-spacing: 0px;
+  font-size: 15px;
+}
+
+.texto-card{
+  margin: 30px;
 }
 
 .btn-acceder {
-  width: 150px;
-  height: 45px;
+  width: 130px;
+  height: 40px;
   background-color: white;
   color: #c69749;
   border-radius: 42px;
@@ -190,10 +189,10 @@ a:active {
   background-color: #c69749;
   color: white;
   transition: 0.6s ease-in-out all;
-} */
+}
 
 /* BOTONES AGREGAR Y VER */
-.btn-registrar {
+/* .btn-registrar {
   width: 200px;
   height: 60px;
   background-color: white;
@@ -229,11 +228,11 @@ a:active {
   background-color: #c69649;
   color: white;
   transition: 0.6s ease-in-out all;
-}
+} */
 
-/* VISTA CLIENTES */
+/* VISTAS */
 
-.vista-clientes, .vista-productos, .vista-proveedores{
+.vista-clientes, .vista-productos, .vista-proveedores, .vista-principal{
   width: 96%;
   height: 80vh;
   display: flex;
@@ -241,7 +240,9 @@ a:active {
   justify-content: space-evenly;
 }
 
-aside{
+/* ASIDE  */
+
+/* aside{
   width: 10vw;
   height: 76vh;
   display: flex;
@@ -267,9 +268,11 @@ aside{
 
 h3{
   font-size: 40px;
-}
+} */
 
-.registro{
+/* AGREGAR CLIENTES */
+
+/* .registro{
   width: 90vw;
   height: 76vh;
   background: #000000 0% 0% no-repeat padding-box;
@@ -332,11 +335,11 @@ form{
   background-color: #c69749;
   color: white;
   transition: 0.6s ease-in-out all;
-}
+}  */
 
 /* TABLA-CLIENTES, TABLA PRODUCTOS, TABLA PROVEEDORES*/
 
-.tabla-clientes, .tabla-productos, .tabla-proveedores{
+/* .tabla-clientes, .tabla-productos, .tabla-proveedores{
   width: 80vw;
   height: 5vh;
   background: #000000 0% 0% no-repeat padding-box;
@@ -388,7 +391,7 @@ form{
 
 .img-editar:hover, .img-eliminar:hover {
   transform: scale(1.1);
-}
+} */
 
 
 
