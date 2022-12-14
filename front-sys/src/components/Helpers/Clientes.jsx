@@ -6,7 +6,8 @@ const Clientes = () =>{
     return(
         <section className="vista-clientes">
             <AsideClientes/> 
-            <FormularioClientes/> 
+            {/* <FormularioClientes/> */} 
+            <TablaClientes/>
         </section>
     )
 }

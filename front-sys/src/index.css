@@ -224,7 +224,7 @@ h3{
 
 /* AGREGAR CLIENTES */
 
-.registro{
+/* .registro{
   width: 70vw;
   height: 75vh;
   background: #000000 0% 0% no-repeat padding-box;
@@ -282,12 +282,12 @@ form{
   background-color: #c69749;
   color: white;
   transition: 0.6s ease-in-out all;
-}
+} */
 
 /* TABLA-CLIENTES, TABLA PRODUCTOS, TABLA PROVEEDORES*/
 
-/* .tabla-clientes, .tabla-productos, .tabla-proveedores{
-  width: 80vw;
+.tabla-clientes, .tabla-productos, .tabla-proveedores{
+  width: 70vw;
   height: 5vh;
   background: #000000 0% 0% no-repeat padding-box;
   box-shadow: 18px 3px 34px #00000029;
@@ -295,7 +295,7 @@ form{
   opacity: 0.4;
   margin: 2%;
   gap: 15%;
-  margin-top: 29px;
+  margin-top: 16px;
   margin-right: 1px;
   color: white;
 }
@@ -338,7 +338,7 @@ form{
 
 .img-editar:hover, .img-eliminar:hover {
   transform: scale(1.1);
-} */
+} 
 
 
 
