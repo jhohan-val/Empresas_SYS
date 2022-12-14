@@ -6,8 +6,8 @@ import Header from "../Header";
 
 const TablaProveedores = () => {
     return (
-        <section className="proveedores" id="proveedores">
-            {/* <AsideProveedores/> */}
+        {/* <section className="proveedores" id="proveedores">
+            <AsideProveedores/>
             <table className="tabla-proveedores" id="o">
                 <thead className="thead">
                     <tr className="tr">
@@ -35,7 +35,7 @@ const TablaProveedores = () => {
                     </tr>
                 </tbody>
             </table>
-        </section>
+        </section> */}
     )
 }
 

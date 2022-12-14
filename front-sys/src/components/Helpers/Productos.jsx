@@ -7,7 +7,6 @@ const Productos = () =>{
         <section className="vista-productos">
            <AsideProductos/>
            {/* <FormularioProductos/> */}
-           <TablaProductos/>
         </section>
     )
 }

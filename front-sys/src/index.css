@@ -35,6 +35,14 @@ main {
   justify-content: center
 }
 
+
+/* logo */
+
+.logo{
+  width: 130px;
+  margin-left: 60px;
+}
+
 .container-fluid{
   display: flex;
   justify-content: center;
@@ -188,13 +196,6 @@ p{
   justify-content: space-evenly;
 }
 
-/* logo */
-
-.logo{
-  width: 135px;
-  margin-left: 50px;
-}
-
 /* ASIDE  */
 
 aside{
@@ -287,7 +288,7 @@ form{
 /* TABLA-CLIENTES, TABLA PRODUCTOS, TABLA PROVEEDORES*/
 
 .tabla-clientes, .tabla-productos, .tabla-proveedores{
-  width: 70vw;
+  width: 75vw;
   height: 5vh;
   background: #000000 0% 0% no-repeat padding-box;
   box-shadow: 18px 3px 34px #00000029;

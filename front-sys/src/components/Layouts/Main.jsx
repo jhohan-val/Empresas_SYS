@@ -4,6 +4,7 @@ import Productos from "../Helpers/Productos";
 import Proveedores from "../Helpers/Proveedores";
 import { Routes, Route } from 'react-router-dom'
 import LogoHeader from "../Helpers/imagenes/LogoHeader";
+import TablaClientes from "../Helpers/Tablas/TablaClientes";
 
 const Main = () => {
     return (
@@ -25,12 +26,13 @@ const Main = () => {
 
             {/*CLIENTES */}
             {/* <Clientes/>  */}
+            <TablaClientes/>
 
             {/* PRODUCTOS */}
             {/* <Productos/> */}
 
             {/* PROVEEDORES */}
-            <Proveedores/>
+            {/* <Proveedores/> */}
 
         </main >
     )

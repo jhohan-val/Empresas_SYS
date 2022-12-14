@@ -7,10 +7,10 @@ const Principal = () =>{
     return(
         <section className="vista-principal">
             <section className="cards">
-                <CardClientes/>
+                {/* <CardClientes/>
                 <CardProductos/>
                 <CardProveedores/>
-                <Outlet />
+                <Outlet /> */}
             </section>
         </section>
     )

@@ -6,7 +6,7 @@ const TablaClientes = () => {
     return (
         
         <section className="clientes" id="clientes">
-            {/* <AsideClientes/> */}
+            <AsideClientes/>
             <table class="tabla-clientes" id="tabla-clientes">
                 <thead class="thead">
                     <tr class="tr">

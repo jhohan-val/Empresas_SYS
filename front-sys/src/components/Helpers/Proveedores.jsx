@@ -4,10 +4,9 @@ import TablaProveedores from "./Tablas/TablaPoveedores";
 
 const Proveedores = () => {
     return(
-       <section className="vista-proveedores">
-           <AsideProveedores/>
-           {/* <FormularioProveedores/> */}
-           <TablaProveedores/>
+    <section className="vista-proveedores">
+        <AsideProveedores/>
+        {/* <FormularioProveedores/> */}
         </section>
     )
 }
