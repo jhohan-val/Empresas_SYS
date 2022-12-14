@@ -21,10 +21,10 @@ const Main = () => {
         {/* ------------------------------------------------------------------------------- */}
         
             {/* PRINCIPAL */}
-            <Principal />
+            {/* <Principal /> */}
 
             {/*CLIENTES */}
-            {/* <Clientes/> */}     
+            <Clientes/> 
 
             {/* PRODUCTOS */}
             {/* <Productos/> */}
