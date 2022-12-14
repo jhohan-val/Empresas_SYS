@@ -211,7 +211,7 @@ aside{
   border-radius: 150px 20px 20px 150px;
   color: white;
   gap: 35px;
-  margin-top: 18px;
+  margin-top: 16px;
 }
 
 .icono-clientes, .icono-productos, .icono-proveedores {
@@ -236,7 +236,7 @@ h3{
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-top: 18px;
+  margin-top: 16px;
 }
 
 form{

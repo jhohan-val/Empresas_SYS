@@ -1,9 +1,12 @@
 import BtnEditar from "../Botones/BtnEditar";
 import BtnEliminar from "../Botones/BtnEliminar";
+import Footer from "../Footer";
+import Header from "../Header";
 
 const TablaProveedores = () => {
     return (
         <section className="proveedores" id="proveedores">
+            <Header/>
             <table className="tabla-proveedores" id="o">
                 <thead className="thead">
                     <tr className="tr">
@@ -31,7 +34,7 @@ const TablaProveedores = () => {
                     </tr>
                 </tbody>
             </table>
-
+            <Footer/>
         </section>
     )
 }
