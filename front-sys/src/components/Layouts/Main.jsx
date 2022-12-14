@@ -20,7 +20,7 @@ const Main = () => {
         {/* ------------------------------------------------------------------------------- */}
         
             {/* PRINCIPAL */}
-            {/* <Principal /> */}
+            <Principal />
 
             {/*CLIENTES */}
             {/* <Clientes/> */}     
@@ -29,7 +29,7 @@ const Main = () => {
             {/* <Productos/> */}
 
             {/* PROVEEDORES */}
-            <Proveedores/>
+            {/* <Proveedores/> */}
 
         </main >
     )

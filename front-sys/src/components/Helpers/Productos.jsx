@@ -4,11 +4,11 @@ import TablaProductos from "./Tablas/TablaProductos";
 
 const Productos = () =>{
     return(
-        <section className="vista-productos">
+        {/* <section className="vista-productos">
                    <AsideProductos/>
-                   {/* <FormularioProductos/> */}
+                   <FormularioProductos/>
                    <TablaProductos/>
-        </section>
+        </section> */}
     )
 }
 

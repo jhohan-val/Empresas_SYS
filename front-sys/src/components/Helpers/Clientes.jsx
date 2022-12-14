@@ -4,11 +4,11 @@ import TablaClientes from "./Tablas/TablaClientes";
 
 const Clientes = () =>{
     return(
-        <section className="vista-clientes">
-                {/* <AsideClientes/> */}
-                {/* <FormularioClientes/> */}
-                {/* <TablaClientes/> */}
-        </section>
+        {/* <section className="vista-clientes">
+            <AsideClientes/> 
+            <FormularioClientes/> 
+            <TablaClientes/> 
+        </section> */}
     )
 }
 

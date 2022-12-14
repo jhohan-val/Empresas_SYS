@@ -5,11 +5,13 @@ import { Outlet} from "react-router-dom"
 
 const Principal = () =>{
     return(
-        <section className="cards">
-            <CardClientes/>
-            <CardProductos/>
-            <CardProveedores/>
-            <Outlet />
+        <section className="vista-principal">
+            <section className="cards">
+                <CardClientes/>
+                <CardProductos/>
+                <CardProveedores/>
+                <Outlet />
+            </section>
         </section>
     )
 }
