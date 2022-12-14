@@ -1,3 +1,4 @@
+import AsideClientes from "../Asides/AsideClientes";
 import BtnEditar from "../Botones/BtnEditar";
 import BtnEliminar from "../Botones/BtnEliminar";
 import Footer from "../Footer";
@@ -7,7 +8,7 @@ const TablaClientes = () => {
     return (
         
         <section className="clientes" id="clientes">
-           <Header/>
+           <AsideClientes/>
             <table class="tabla-clientes" id="tabla-clientes">
                 <thead class="thead">
                     <tr class="tr">
@@ -35,7 +36,6 @@ const TablaClientes = () => {
                     </tr>
                 </tbody>
             </table>
-        <Footer/>
         </section>
     )
 }
