@@ -32,12 +32,12 @@ const Main = () => {
 
             {/* PRODUCTOS */}
             {/* <Productos/> */}
-            {/* <TablaProductos/> */}
+            <TablaProductos/>
 
             {/* PROVEEDORES */}
             {/* <Proveedores/> */}
-            <TablaProveedores/>
- 
+            {/* <TablaProveedores/> */}
+
         </main >
     )
 }
