@@ -9,7 +9,6 @@ const Header = () => {
           <Link to={'/'}>Home</Link> 
           <Link to={'/clientes'}>Clientes</Link> 
           <Link to={'/productos'}>Productos</Link> 
-          <Link to={'/proveedores'}>Proveedores</Link>
         </section>
     </header>
   );
