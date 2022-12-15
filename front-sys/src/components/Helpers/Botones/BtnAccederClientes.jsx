@@ -10,8 +10,4 @@ const BtnAccederClientes = () => {
     );
 };
 
-<<<<<<< HEAD
 export default BtnAccederClientes;
-=======
-export default BtnAccederClientes;
->>>>>>> 55841c11e5fc8762f31404912098598e132a49cb

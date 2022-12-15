@@ -167,15 +167,9 @@ p{
 }
 
 /* BOTONES AGREGAR Y VER */
-<<<<<<< HEAD
-.btn-registrar {
-  width: 200px;
-  height: 60px;
-=======
 .btn-registrar, .btn-ver {
   width: 130px;
   height: 40px;
->>>>>>> 55841c11e5fc8762f31404912098598e132a49cb
   background-color: white;
   color: #c69749;
   border-radius: 42px;
@@ -192,28 +186,6 @@ p{
   transition: 0.6s ease-in-out all;
 }
 
-<<<<<<< HEAD
-.btn-ver{
-  width: 200px;
-  height: 60px;
-  background-color: white;
-  color: #c69749;
-  border-radius: 42px;
-  text-align: center;
-  border: none;
-  transition: 0.6s ease-in-out all;
-  margin-top: 90px;
-  font-size: 30px;
-}
-
-.btn-ver:hover{
-  background-color: #c69649;
-  color: white;
-  transition: 0.6s ease-in-out all;
-}
-
-=======
->>>>>>> 55841c11e5fc8762f31404912098598e132a49cb
 /* VISTAS */
 
 .vista-clientes, .vista-productos, .vista-proveedores, .vista-principal{
@@ -227,13 +199,8 @@ p{
 /* ASIDE  */
 
 aside{
-<<<<<<< HEAD
-  width: 10vw;
-  height: 76vh;
-=======
   width: 13vw;
   height: 75vh;
->>>>>>> 55841c11e5fc8762f31404912098598e132a49cb
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -253,23 +220,14 @@ aside{
 }
 
 h3{
-<<<<<<< HEAD
-  font-size: 40px;
-=======
   font-size: 20px;
->>>>>>> 55841c11e5fc8762f31404912098598e132a49cb
 }
 
 /* AGREGAR CLIENTES, AGREGAR PRODUCTOS, AGREGAR PROVEEDORES */
 
 .registro{
-<<<<<<< HEAD
-  width: 90vw;
-  height: 76vh;
-=======
   width: 70vw;
   height: 75vh;
->>>>>>> 55841c11e5fc8762f31404912098598e132a49cb
   background: #000000 0% 0% no-repeat padding-box;
   box-shadow: 18px 3px 34px #00000029;
   border-radius: 20px 150px 150px 20px;
@@ -325,20 +283,12 @@ form{
   background-color: #c69749;
   color: white;
   transition: 0.6s ease-in-out all;
-<<<<<<< HEAD
-} 
-=======
 }
->>>>>>> 55841c11e5fc8762f31404912098598e132a49cb
 
 /* TABLA-CLIENTES, TABLA PRODUCTOS, TABLA PROVEEDORES*/
 
 .tabla-clientes, .tabla-productos, .tabla-proveedores{
-<<<<<<< HEAD
-  width: 80vw;
-=======
   width: 75vw;
->>>>>>> 55841c11e5fc8762f31404912098598e132a49cb
   height: 5vh;
   background: #000000 0% 0% no-repeat padding-box;
   box-shadow: 18px 3px 34px #00000029;
@@ -389,11 +339,7 @@ form{
 
 .img-editar:hover, .img-eliminar:hover {
   transform: scale(1.1);
-<<<<<<< HEAD
-}
-=======
 } 
->>>>>>> 55841c11e5fc8762f31404912098598e132a49cb
 
 
 
