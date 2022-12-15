@@ -40,6 +40,8 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 160px;
+  
 }
 
 
@@ -60,7 +62,7 @@ a {
   color: #ffffff;
   font-size: 18px;
   transition: 0.5s;
-  margin-right: 100px;
+  
 }
 
 a:hover { 
@@ -112,7 +114,8 @@ a:active {
 
 .cards {
   gap: 100px;
-  height: 100vh;
+  height: 80vh;
+  margin-top: 60px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -146,6 +149,7 @@ p{
   padding: 20px;
   color: #c69749;
   font-size: 15px;
+  margin-top: 10px;
 }
 
 .icono-clientes,
@@ -153,20 +157,21 @@ p{
 .icono-proveedores {
   width: 150px;
   height: 150px;
-  padding-top: 20px;
+  
+  margin-top: 30px;
 }
 
 .texto-card{
-  margin: 30px;
+  font-size: 35px;
+  margin-top: 30px;
 }
 
 .btn-acceder {
   width: 130px;
-  height: 40px;
+  height: 30px;
   background-color: white;
   color: #c69749;
   border-radius: 42px;
-  text-align: center;
   border: none;
   transition: 0.6s ease-in-out all;
 }
