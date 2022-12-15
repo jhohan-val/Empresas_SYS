@@ -1,9 +1,26 @@
 import AsideClientes from "../Asides/AsideClientes";
 import BtnEditar from "../Botones/BtnEditar";
 import BtnEliminar from "../Botones/BtnEliminar";
+import { useState, useEffect } from "react";
+import React from "react";
+import axios from "axios";
+
+const apiClientes = " http://localhost:2002/clientes";
 
 const TablaClientes = () => {
-    return (
+    const [clientes, setClientes] = useState([]);
+
+    useEffect(() => {
+        listarClientes();
+    }, []);
+
+    const listarClientes = async () => {
+        const response = await axios.get(apiClientes);
+        setClientes(response.data);
+        console.log(response.data);
+    };
+
+    return (  
         
         <section className="clientes" id="clientes">
             <AsideClientes/>
@@ -20,18 +37,20 @@ const TablaClientes = () => {
                     </tr>
                 </thead>
                 <tbody class="tbody">
-                    <tr class="tr">
-                        <td className="td-clientes">Jaime</td>
-                        <td className="td-clientes">123456789</td>
-                        <td className="td-clientes">jaimezapata@gmail.com</td>
-                        <td className="td-clientes">Calle 19</td>
-                        <td className="td-clientes">Centro</td>
-                        <td className="td-clientes">3117451454</td>
-                        <td className="d-flex">
+                    {clientes.map((clientes) => (
+                        <tr className="text-center" key={clientes.id}>
+                            <td>{clientes.nombre}</td>
+                            <td>{clientes.documento}</td>
+                            <td>{clientes.correo}</td>
+                            <td>{clientes.direccion}</td>
+                            <td>{clientes.barrio}</td>
+                            <td>{clientes.telefono}</td>
+                            <td className="d-flex">
                             <BtnEliminar />
                             <BtnEditar />
                         </td>
-                    </tr>
+                        </tr>
+                        ))}
                 </tbody>
             </table>
         </section>
