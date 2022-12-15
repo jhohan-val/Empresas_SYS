@@ -1,10 +1,11 @@
-import AsideProveedores from "../Asides/AsideProveedores";
+
 import BtnEditar from "../Botones/BtnEditar";
 import BtnEliminar from "../Botones/BtnEliminar";
 import axios from 'axios';
 import { useState, useEffect } from "react";
 import Header from "../Header";
 import Footer from "../Footer";
+import AsideTablaProveedores from "../Asides/AsideTablaProveedores";
 
 const apiProveedores = "http://localhost:2002/proveedores";
 
@@ -24,7 +25,7 @@ const TablaProveedores = () => {
         <section>
             <Header />
                 <section className="proveedores" id="proveedores">
-                    <AsideProveedores/>
+                    <AsideTablaProveedores />
                     <table className="tabla-proveedores" id="o">
                         <thead className="thead">
                             <tr className="tr">

@@ -1,4 +1,4 @@
-import AsideClientes from "../Asides/AsideClientes"
+import AsideTablaClientes from "../Asides/AsideTablaClientes";
 import BtnEditar from "../Botones/BtnEditar";
 import BtnEliminar from "../Botones/BtnEliminar";
 import axios from 'axios';
@@ -24,7 +24,7 @@ const TablaClientes = () => {
         <section>
             <Header />
                 <section className="clientes" id="clientes">
-                    <AsideClientes />
+                    <AsideTablaClientes />
                     <table className="tabla-clientes" id="tabla-clientes">
                         <thead className="thead">
                             <tr className="tr">
