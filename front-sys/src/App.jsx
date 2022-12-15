@@ -33,7 +33,7 @@ const router = createBrowserRouter([
     element: <Proveedores />
   },
   {
-    path: '/clientes/tablaClientes/',
+    path: '/clientes/tablaClientes',
     element: <TablaClientes />
   },
   {

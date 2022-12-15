@@ -39,7 +39,7 @@ const TablaClientes = () => {
                         </thead>
                         <tbody className="tbody">
                             {clientes.map((clientes)=> {
-                                <tr key={clientes.id} class="tr">
+                                <tr key={clientes.id} class="text-center tr">
                                     <td className="td-clientes">{clientes.nombre}</td>
                                     <td className="td-clientes">{clientes.documento}</td>
                                     <td className="td-clientes">{clientes.correo}</td>
@@ -47,8 +47,8 @@ const TablaClientes = () => {
                                     <td className="td-clientes">{clientes.barrio}</td>
                                     <td className="td-clientes">{clientes.telefono}</td>
                                     <td className="d-flex">
-                                        <BtnEliminar />
-                                        <BtnEditar />
+                                        <BtnEliminar/>
+                                        <BtnEditar/>
                                     </td>
                                 </tr>
                             })}

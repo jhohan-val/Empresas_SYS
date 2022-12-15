@@ -96,14 +96,14 @@ a:active {
   align-items: center;
   margin-top: -11px;
   gap: 140px;
-
+  transform: matrix(-1, 0, 0, -1, 0, 0);
 }
-/*   transform: matrix(-1, 0, 0, -1, 0, 0); */
+
 .iconos-redes{
   width: 35px;
   height: 35px;
   transition: 0.5s;
-  transform: matrix(-1, 0, 0, -1, 0, 0);
+  
 }
 
 .iconos-redes:hover{
@@ -204,7 +204,7 @@ p{
 
 .btn-ver{
   width: 100px;
-  height: 30px;
+  height: 24px;
   background-color: white;
   color: #c69749;
   border-radius: 42px;
@@ -223,7 +223,7 @@ p{
 
 /* VISTAS */
 
-.vista-clientes, .vista-productos, .vista-proveedores, .vista-principal{
+.vista-clientes, .vista-productos, .vista-proveedores, .vista-principal, .clientes, .productos, .proveedores{
   width: 96%;
   height: 90vh;
   display: flex;
@@ -322,19 +322,15 @@ form{
 /* TABLA-CLIENTES, TABLA PRODUCTOS, TABLA PROVEEDORES*/
 
 .tabla-clientes, .tabla-productos, .tabla-proveedores{
-  width: 80vw;
+  width: 470vw;
   height: 5vh;
   background: #000000 0% 0% no-repeat padding-box;
   box-shadow: 18px 3px 34px #00000029;
-  border-radius: 20px 20px 205px 0px;
+  border-radius: 20px 20px 20px 0px;
   opacity: 0.4;
-  margin: 2%;
-  gap: 15%;
-  margin-top: 16px;
-  margin-right: 1px;
   color: white;
+  margin-top: 100px;
 }
-
 
 .thead, .tbody{
   text-align: center;
