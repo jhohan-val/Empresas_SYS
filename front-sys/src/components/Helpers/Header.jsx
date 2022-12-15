@@ -1,17 +1,17 @@
 import LogoHeader from "./imagenes/LogoHeader";
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <header className="header-menu">
       <LogoHeader/>  
         <section class="container-fluid">
-          <a href="">Home</a>
-          <a href="">Clientes</a>
-          <a href="">Productos</a>
-          <a href="">Proveedores</a>
+          <Link to={'/'}>Home</Link> 
+          <Link to={'/clientes'}>Clientes</Link> 
+          <Link to={'/productos'}>Productos</Link> 
+          <Link to={'/proveedores'}>Proveedores</Link>
         </section>
     </header>
   );
 };
-
-export default Header;
+export default Header 
