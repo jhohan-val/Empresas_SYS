@@ -1,4 +1,3 @@
-import BtnRegistar from "../Botones/BtnRegistar BtnRegistar";
 import BtnVerProductos from "../Botones/BtnVerTablaProducto";
 import IconoProductos from "../imagenes/IconoProductos";
 
@@ -8,7 +7,6 @@ const AsideProductos = () => {
             <aside >
                 <IconoProductos/>
                 <h3>Productos</h3>
-                <BtnRegistar/>
                 <BtnVerProductos/>
             </aside>
         </section>
