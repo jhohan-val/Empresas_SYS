@@ -2,8 +2,8 @@ import logoheader from '../../../../public/logo-2.png'
 
 const LogoHeader =() => {
     return(
-        <section className='logo'>
-            <img className="logo-header" src={logoheader} alt="logoheader"/>
+        <section className='logo-centro'>
+            <img className='logo'  src={logoheader} alt="logoheader"/>
         </section>
     )   
 }

@@ -35,11 +35,12 @@ main {
   justify-content: center
 }
 
-.logo-header {
-  width: 80px;
-  height: 50px;
-  margin-top: 8px;
-  margin-right: 200px;
+
+/* logo */
+
+.logo{
+  width: 130px;
+  margin-left: 60px;
 }
 
 .container-fluid{
@@ -99,7 +100,7 @@ a:active {
 /* CARDS */
 
 .cards {
-  gap: 130px;
+  gap: 150px;
   height: 80vh;
   display: flex;
   align-items: center;
@@ -166,25 +167,32 @@ p{
 }
 
 /* BOTONES AGREGAR Y VER */
+<<<<<<< HEAD
 .btn-registrar {
   width: 200px;
   height: 60px;
+=======
+.btn-registrar, .btn-ver {
+  width: 130px;
+  height: 40px;
+>>>>>>> 55841c11e5fc8762f31404912098598e132a49cb
   background-color: white;
   color: #c69749;
   border-radius: 42px;
   text-align: center;
   border: none;
   transition: 0.6s ease-in-out all;
-  margin-top: 90px;
-  font-size: 30px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
-.btn-agregar:hover {
+.btn-registrar:hover, .btn-ver:hover {
   background-color: #c69749;
   color: white;
   transition: 0.6s ease-in-out all;
 }
 
+<<<<<<< HEAD
 .btn-ver{
   width: 200px;
   height: 60px;
@@ -204,6 +212,8 @@ p{
   transition: 0.6s ease-in-out all;
 }
 
+=======
+>>>>>>> 55841c11e5fc8762f31404912098598e132a49cb
 /* VISTAS */
 
 .vista-clientes, .vista-productos, .vista-proveedores, .vista-principal{
@@ -217,8 +227,13 @@ p{
 /* ASIDE  */
 
 aside{
+<<<<<<< HEAD
   width: 10vw;
   height: 76vh;
+=======
+  width: 13vw;
+  height: 75vh;
+>>>>>>> 55841c11e5fc8762f31404912098598e132a49cb
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -226,42 +241,44 @@ aside{
   background-color: #000000;
   opacity: 0.35;
   box-shadow: 18px 3px 34px #00000029;
-  border-radius: 205px 20px 20px 205px;
+  border-radius: 150px 20px 20px 150px;
   color: white;
-  margin: 8%;
-  gap: 10%;
-  margin-top: 29px;
-  margin-left: 2px;
+  gap: 35px;
+  margin-top: 16px;
 }
 
 .icono-clientes, .icono-productos, .icono-proveedores {
-  width: 200px;
-  height: 200px;
-  padding-top: 20px;
+  width: 100px;
+  height: 100px;
 }
 
 h3{
+<<<<<<< HEAD
   font-size: 40px;
+=======
+  font-size: 20px;
+>>>>>>> 55841c11e5fc8762f31404912098598e132a49cb
 }
 
-/* AGREGAR CLIENTES */
+/* AGREGAR CLIENTES, AGREGAR PRODUCTOS, AGREGAR PROVEEDORES */
 
 .registro{
+<<<<<<< HEAD
   width: 90vw;
   height: 76vh;
+=======
+  width: 70vw;
+  height: 75vh;
+>>>>>>> 55841c11e5fc8762f31404912098598e132a49cb
   background: #000000 0% 0% no-repeat padding-box;
   box-shadow: 18px 3px 34px #00000029;
-  border: 1px solid #000000;
-  border-radius: 20px 205px 205px 20px;
+  border-radius: 20px 150px 150px 20px;
   opacity: 0.4;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin: 2%;
-  gap: 15%;
-  margin-top: 29px;
-  margin-right: 1px;
+  margin-top: 16px;
 }
 
 form{
@@ -269,52 +286,59 @@ form{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 20px;
+  gap: 10px;
+  margin-top: 10px;
 }
 
 .form-item{
   width: 60vw;
-  height: 80px;
-  margin-top: 20px;
+  height: 30px;
   border: none;
   outline: none;
-  border-bottom: 5px solid #c69649;
+  border-bottom: 1px solid #c69649;
   cursor: text;
   text-align: center;
   background: none;
-  font-size: 40px;
+  font-size: 20px;
   color: white;
-  margin-top: 20px;
 }
 
 .titulo{
   color: white;
-  font-size: 80px;
+  font-size: 40px;
 }
 
 .btn-form-clientes, .btn-form-productos, .btn-form-proveedores{
-  width: 200px;
-  height: 80px;
+  width: 130px;
+  height: 40px;
   background-color: white;
   color: #c69749;
   border-radius: 42px;
   text-align: center;
   border: none;
   transition: 0.6s ease-in-out all;
-  margin-top: 90px;
-  font-size: 30px;
+  margin-top: 30px;
+  font-size: 20px;
 }
 
 .btn-form-clientes:hover, .btn-form-productos:hover, .btn-form-proveedores:hover {
   background-color: #c69749;
   color: white;
   transition: 0.6s ease-in-out all;
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> 55841c11e5fc8762f31404912098598e132a49cb
 
 /* TABLA-CLIENTES, TABLA PRODUCTOS, TABLA PROVEEDORES*/
 
 .tabla-clientes, .tabla-productos, .tabla-proveedores{
+<<<<<<< HEAD
   width: 80vw;
+=======
+  width: 75vw;
+>>>>>>> 55841c11e5fc8762f31404912098598e132a49cb
   height: 5vh;
   background: #000000 0% 0% no-repeat padding-box;
   box-shadow: 18px 3px 34px #00000029;
@@ -322,7 +346,7 @@ form{
   opacity: 0.4;
   margin: 2%;
   gap: 15%;
-  margin-top: 29px;
+  margin-top: 16px;
   margin-right: 1px;
   color: white;
 }
@@ -365,7 +389,11 @@ form{
 
 .img-editar:hover, .img-eliminar:hover {
   transform: scale(1.1);
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> 55841c11e5fc8762f31404912098598e132a49cb
 
 
 
