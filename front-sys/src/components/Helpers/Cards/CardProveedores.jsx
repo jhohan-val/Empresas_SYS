@@ -1,4 +1,4 @@
-import BtnAcceder from "../Botones/BtnAcceder";
+import BtnAccederProveedores from "../Botones/BtnAccederProveedores";
 import IconoProveedores from "../imagenes/IconoProveedores";
 
 const CardProveedores = () => {
@@ -10,7 +10,7 @@ const CardProveedores = () => {
       </article>
       <article className="texto-proveedores">
         <p>Esta tarjeta te permitirá agregar, editar y eliminar tus <i><b>proveedores</b></i></p>
-        <BtnAcceder/>
+        <BtnAccederProveedores />
       </article>
     </section>
   );
