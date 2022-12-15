@@ -47,8 +47,8 @@ const TablaProveedores = () => {
                                     <td>{proveedores.telefono}</td>
                                     <td>{proveedores.producto}</td>
                                     <td className="d-flex">
-                                    <BtnEliminar />
-                                    <BtnEditar />
+                                    <BtnEliminar/>
+                                    <BtnEditar/>
                                     </td>
                                 </tr>
                             ))}
