@@ -5,7 +5,6 @@ const IconoClientes = () => {
         <section>  
             <img className="icono-clientes" src={iconoclientes} alt="clientes" />
         </section>
-      
     )
 }
 

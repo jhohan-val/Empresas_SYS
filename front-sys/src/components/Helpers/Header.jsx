@@ -1,10 +1,9 @@
-import BtnPerfil from "./Botones/BtnPerfil";
 import LogoHeader from "./imagenes/LogoHeader";
 
 const Header = () => {
   return (
     <header className="header-menu">  
-        <section class="container-fluid">
+        <section className="container-fluid">
           <LogoHeader />
           <a href="">Home</a>
           <a href="">Clientes</a>

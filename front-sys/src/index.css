@@ -166,7 +166,7 @@ p{
 }
 
 /* BOTONES AGREGAR Y VER */
-/* .btn-registrar {
+.btn-registrar {
   width: 200px;
   height: 60px;
   background-color: white;
@@ -202,7 +202,7 @@ p{
   background-color: #c69649;
   color: white;
   transition: 0.6s ease-in-out all;
-} */
+}
 
 /* VISTAS */
 
@@ -216,7 +216,7 @@ p{
 
 /* ASIDE  */
 
-/* aside{
+aside{
   width: 10vw;
   height: 76vh;
   display: flex;
@@ -242,11 +242,11 @@ p{
 
 h3{
   font-size: 40px;
-} */
+}
 
 /* AGREGAR CLIENTES */
 
-/* .registro{
+.registro{
   width: 90vw;
   height: 76vh;
   background: #000000 0% 0% no-repeat padding-box;
@@ -309,11 +309,11 @@ form{
   background-color: #c69749;
   color: white;
   transition: 0.6s ease-in-out all;
-}  */
+} 
 
 /* TABLA-CLIENTES, TABLA PRODUCTOS, TABLA PROVEEDORES*/
 
-/* .tabla-clientes, .tabla-productos, .tabla-proveedores{
+.tabla-clientes, .tabla-productos, .tabla-proveedores{
   width: 80vw;
   height: 5vh;
   background: #000000 0% 0% no-repeat padding-box;
@@ -365,7 +365,7 @@ form{
 
 .img-editar:hover, .img-eliminar:hover {
   transform: scale(1.1);
-} */
+}
 
 
 

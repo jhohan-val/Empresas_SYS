@@ -1,13 +1,27 @@
 import BtnEditar from "../Botones/BtnEditar";
 import BtnEliminar from "../Botones/BtnEliminar";
+import axios from 'axios';
+import { useState, useEffect } from "react";
+
+const apiClientes = "http://localhost:2002/clientes";
 
 const TablaClientes = () => {
+    const [clientes, setClientes] = useState([]);
+
+    useEffect(()=>{
+        listarClientes();
+    }, []);
+
+    const listarClientes = async () =>{
+        const response = await axios.get(apiClientes);
+        setClientes(response.data);
+        console.log(response.data);
+    }
     return (
         <section className="clientes" id="clientes">
-
-            <table class="tabla-clientes" id="tabla-clientes">
-                <thead class="thead">
-                    <tr class="tr">
+            <table className="tabla-clientes" id="tabla-clientes">
+                <thead className="thead">
+                    <tr className="tr">
                         <td className="td-clientes">Nombre</td>
                         <td className="td-clientes">Documento</td>
                         <td className="td-clientes">Correo</td>
@@ -17,19 +31,21 @@ const TablaClientes = () => {
                         <td className="td-clientes">Acción</td>
                     </tr>
                 </thead>
-                <tbody class="tbody">
-                    <tr class="tr">
-                        <td className="td-clientes">Jaime</td>
-                        <td className="td-clientes">123456789</td>
-                        <td className="td-clientes">jaimezapata@gmail.com</td>
-                        <td className="td-clientes">Calle 19</td>
-                        <td className="td-clientes">Centro</td>
-                        <td className="td-clientes">3117451454</td>
-                        <td className="d-flex">
-                            <BtnEliminar />
-                            <BtnEditar />
-                        </td>
-                    </tr>
+                <tbody className="tbody">
+                    {clientes.map((clientes)=> {
+                        <tr key={clientes.id} class="tr">
+                            <td className="td-clientes">{clientes.nombre}</td>
+                            <td className="td-clientes">{clientes.documento}</td>
+                            <td className="td-clientes">{clientes.correo}</td>
+                            <td className="td-clientes">{clientes.direccion}</td>
+                            <td className="td-clientes">{clientes.barrio}</td>
+                            <td className="td-clientes">{clientes.telefono}</td>
+                            <td className="d-flex">
+                                <BtnEliminar />
+                                <BtnEditar />
+                            </td>
+                        </tr>
+                    })}
                 </tbody>
             </table>
         </section>

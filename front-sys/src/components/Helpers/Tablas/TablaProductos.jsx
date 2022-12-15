@@ -1,7 +1,22 @@
 import BtnEditar from "../Botones/BtnEditar";
 import BtnEliminar from "../Botones/BtnEliminar";
+import axios from 'axios';
+import { useEffect, useState } from "react";
+
+const apiProductos = "http://localhost:2002/productos";
 
 const TablaProductos = () => {
+    const [productos, setProductos] = useState([]);
+    
+    useEffect(()=>{
+        listarProductos();
+    }, []);
+
+    const listarProductos = async () =>{
+        const response = await axios.get(apiProductos);
+        setProductos(response.data);
+        console.log(response.data);
+    }
     return(
         <section className="productos" id="productos">
             <table className="tabla-productos" id="tabla-productos">
@@ -17,18 +32,20 @@ const TablaProductos = () => {
                     </tr>
                 </thead>
                 <tbody className="tbody">
-                    <tr className="tr">
-                        <td className="td-productos">Blue</td>
-                        <td className="td-productos">Dulce</td>
-                        <td className="td-productos">81935</td>
-                        <td className="td-productos">Grande</td>
-                        <td className="td-productos">10</td>
-                        <td className="td-productos">Coco Chanel</td>
-                        <td className="d-flex">
-                            <BtnEliminar/>
-                            <BtnEditar/>
-                        </td>
-                    </tr>
+                    {productos.map((productos)=> {
+                        <tr key={productos.id} className="tr">
+                            <td className="td-productos">{productos.nombre}</td>
+                            <td className="td-productos">{productos.fragancia}</td>
+                            <td className="td-productos">{productos.referencia}</td>
+                            <td className="td-productos">{productos.tamaño}</td>
+                            <td className="td-productos">{productos.cantidad}</td>
+                            <td className="td-productos">{productos.fabricante}</td>
+                            <td className="d-flex">
+                                <BtnEliminar/>
+                                <BtnEditar/>
+                            </td>
+                        </tr>
+                    })}
                 </tbody>
             </table>
         </section>

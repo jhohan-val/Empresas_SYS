@@ -1,9 +1,8 @@
-import BtnAcceder from "../Botones/BtnAcceder";
+import BtnAccederClientes from "../Botones/BtnAccederClientes";
 import IconoClientes from "../imagenes/IconoClientes";
 
 const CardClientes = () => {
   return (
-
     <section>
     <article className="card-clientes">
       <IconoClientes />
@@ -11,7 +10,7 @@ const CardClientes = () => {
     </article>
     <article className="texto-clientes">
       <p>Esta tarjeta te permitirá agregar, editar y eliminar tus <i><b>clientes</b></i></p>
-      <BtnAcceder/>
+      <BtnAccederClientes/>
     </article>
   </section>
   );
