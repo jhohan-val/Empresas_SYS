@@ -1,10 +1,26 @@
 import AsideProveedores from "../Asides/AsideProveedores";
 import BtnEditar from "../Botones/BtnEditar";
 import BtnEliminar from "../Botones/BtnEliminar";
-import Footer from "../Footer";
-import Header from "../Header";
+import { useState, useEffect } from "react";
+import React from "react";
+import axios from "axios";
+
+const apiProveedores = " http://localhost:2002/proveedores";
 
 const TablaProveedores = () => {
+    const [proveedores, setProveedores] = useState([]);
+
+    useEffect(() => {
+        listarProveedores();
+    }, []);
+
+    const listarProveedores = async () => {
+        const response = await axios.get(apiProveedores);
+        setProveedores(response.data);
+        console.log(response.data);
+    };
+
+
     return (
         <section className="proveedores" id="proveedores">
             <AsideProveedores/>
@@ -21,18 +37,20 @@ const TablaProveedores = () => {
                     </tr>
                 </thead>
                 <tbody className="tbody">
-                    <tr className="tr">
-                        <td className="td-proveedores">Jaime</td>
-                        <td className="td-proveedores">123456789</td>
-                        <td className="td-proveedores">jaimezapata@gmail.com</td>
-                        <td className="td-proveedores">Calle 19</td>
-                        <td className="td-proveedores">3117451454</td>
-                        <td className="td-proveedores">Envases de perfumes</td>
-                        <td className="d-flex">
-                            <BtnEliminar/>
-                            <BtnEditar/>
+                {proveedores.map((proveedores) => (
+                        <tr className="text-center" key={proveedores.id}>
+                            <td>{proveedores.nombre}</td>
+                            <td>{proveedores.nit}</td>
+                            <td>{proveedores.correo}</td>
+                            <td>{proveedores.direccion}</td>
+                            <td>{proveedores.telefono}</td>
+                            <td>{proveedores.producto}</td>
+                            <td className="d-flex">
+                            <BtnEliminar />
+                            <BtnEditar />
                         </td>
-                    </tr>
+                        </tr>
+                        ))}
                 </tbody>
             </table>
         </section>

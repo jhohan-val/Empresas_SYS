@@ -28,7 +28,7 @@ const Main = () => {
 
             {/*CLIENTES */}
             {/* <Clientes/>  */}
-            <TablaClientes/>
+            {/* <TablaClientes/> */}
 
             {/* PRODUCTOS */}
             {/* <Productos/> */}
@@ -36,8 +36,8 @@ const Main = () => {
 
             {/* PROVEEDORES */}
             {/* <Proveedores/> */}
-{/*             <TablaProveedores/>
- */}
+            <TablaProveedores/>
+ 
         </main >
     )
 }
