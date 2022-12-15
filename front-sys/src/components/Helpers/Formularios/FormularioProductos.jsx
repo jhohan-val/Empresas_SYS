@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState } from "react"
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Footer from "../Footer";
 import Header from "../Header";
 
@@ -13,7 +13,7 @@ const FormularioProductos = () => {
     const [tamaño, setTamaño] = useState("") 
     const [cantidad, setCantidad] = useState("") 
     const [fabricante, setFabricante] = useState("") 
-    const navigate = useNavigate();
+    /* const navigate = useNavigate(); */
     
     const agregarProducto = async(e) => {
         e.preventDefault()
@@ -21,7 +21,7 @@ const FormularioProductos = () => {
             nombre, fragancia, referencia, tamaño, cantidad, fabricante
         }
         await axios.post(apiProductos, producto)
-        navigate('/productos/tablaProductos')
+        /* navigate('/productos/tablaProductos') */
     }
 
     return(
@@ -36,7 +36,7 @@ const FormularioProductos = () => {
                         <input value={tamaño} onChange={(e)=> setTamaño(e.target.value)} className="form-item" placeholder="Tamaño" type="text" />
                         <input value={cantidad} onChange={(e)=> setCantidad(e.target.value)} className="form-item" placeholder="Cantidad" type="text" />
                         <input value={fabricante} onChange={(e)=> setFabricante(e.target.value)} className="form-item" placeholder="Fabricante" type="text" />
-                        <input className="btn-form-productos" type="submit" value={"Agregar"} />
+                        <Link className="btn-form-productos" type="submit" value={"Agregar"}>Agregar</Link>
                     </form>
                 </section>
             <Footer />
