@@ -1,5 +1,5 @@
 import BtnRegistar from "../Botones/BtnRegistar BtnRegistar";
-import BtnVer from "../Botones/BtnVer";
+import BtnVerProveedores from "../Botones/BtnVerTablaProveedores";
 import IconoProveedores from "../imagenes/IconoProveedores";
 
 const AsideProveedores = () => {
@@ -9,7 +9,7 @@ const AsideProveedores = () => {
                 <IconoProveedores/>
                 <h3>Proveedores</h3>
                 <BtnRegistar/>
-                <BtnVer/>
+                <BtnVerProveedores/>
             </aside>
         </section>
     )

@@ -1,15 +1,15 @@
 import BtnRegistar from "../Botones/BtnRegistar BtnRegistar";
-import BtnVer from "../Botones/BtnVer";
+import BtnVerProductos from "../Botones/BtnVerTablaProducto";
 import IconoProductos from "../imagenes/IconoProductos";
 
 const AsideProductos = () => {
     return(
         <section className="productos">
             <aside >
-               <IconoProductos/>
+                <IconoProductos/>
                 <h3>Productos</h3>
                 <BtnRegistar/>
-                <BtnVer/>
+                <BtnVerProductos/>
             </aside>
         </section>
     )
