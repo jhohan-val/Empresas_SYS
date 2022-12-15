@@ -30,12 +30,12 @@ const FormularioClientes = () => {
                 <section className="registro">
                     <form onSubmit={agregarCliente} action="">
                         <h1 className="titulo">Registrando Clientes</h1>
-                        <input value={nombre} onChange={(e)=> setNombre(e.target.value)} className="form-item" placeholder="Nombre" type="text" />
-                        <input value={documento} onChange={(e)=> setDocumento(e.target.value)} className="form-item" placeholder="Documento" type="text" />
-                        <input value={correo} onChange={(e)=> setCorreo(e.target.value)} className="form-item" placeholder="Correo" type="email" />
-                        <input value={direccion} onChange={(e)=> setDireccion(e.target.value)} className="form-item" placeholder="Dirección" type="text" />
-                        <input value={barrio} onChange={(e)=> setBarrio(e.target.value)} className="form-item" placeholder="Barrio" type="text" />
-                        <input value={telefono} onChange={(e)=> setTelefono(e.target.value)} className="form-item" placeholder="Teléfono" type="tel" />
+                        <input value={nombre}  className="form-item" placeholder="Nombre" type="text" />
+                        <input value={documento} className="form-item" placeholder="Documento" type="text" />
+                        <input value={correo}  className="form-item" placeholder="Correo" type="email" />
+                        <input value={direccion}  className="form-item" placeholder="Dirección" type="text" />
+                        <input value={barrio}  className="form-item" placeholder="Barrio" type="text" />
+                        <input value={telefono}  className="form-item" placeholder="Teléfono" type="tel" />
                         <input className="btn-form-clientes" type="submit" value={"Agregar"} />
                     </form>
                 </section>
