@@ -34,7 +34,7 @@ const TablaProveedores = () => {
                     </tr>
                 </thead>
                 <tbody className="tbody">
-                {proveedores.map((proveedores) => (
+                    {proveedores.map((proveedores) => (
                         <tr className="text-center" key={proveedores.id}>
                             <td>{proveedores.nombre}</td>
                             <td>{proveedores.nit}</td>
@@ -45,9 +45,9 @@ const TablaProveedores = () => {
                             <td className="d-flex">
                             <BtnEliminar />
                             <BtnEditar />
-                        </td>
+                            </td>
                         </tr>
-                        ))}
+                    ))}
                 </tbody>
             </table>
         </section>
