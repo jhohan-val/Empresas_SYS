@@ -38,7 +38,7 @@ const TablaClientes = () => {
                             </tr>
                         </thead>
                         <tbody className="tbody">
-                            {clientes.map((clientes)=> {
+                            {clientes.map((clientes)=> (
                                 <tr key={clientes.id} class="text-center tr">
                                     <td className="td-clientes">{clientes.nombre}</td>
                                     <td className="td-clientes">{clientes.documento}</td>
@@ -51,7 +51,7 @@ const TablaClientes = () => {
                                         <BtnEditar/>
                                     </td>
                                 </tr>
-                            })}
+                            ))}
                         </tbody>
                     </table>
                 </section>
