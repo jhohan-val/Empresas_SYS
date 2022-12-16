@@ -130,6 +130,29 @@ a:active {
   justify-content: space-evenly;
 }
 
+.card1{
+  transition: 0.5s;
+  box-shadow: 18px 3px 30px #00000029;
+}
+.card1:hover{
+  transform: translate(-3px, 0px) skew(7deg, 7deg);
+}
+.card2{
+  transition: 0.5s;
+  box-shadow: 18px 3px 30px #00000029;
+}
+.card2:hover{
+  transform: translate(-3px, 0px) skew(7deg, 7deg);
+}
+.card3{
+  transition: 0.5s;
+  box-shadow: 18px 3px 30px #00000029;
+}
+.card3:hover{
+  transform: translate(-3px, 0px) skew(7deg, 7deg);
+}
+
+
 .card-clientes,
 .card-productos, .card-proveedores {
   width: 280px;
@@ -152,6 +175,8 @@ a:active {
   display: flex;
   flex-direction: column;
   text-align: center;
+  transition: 0.25s;
+
 }
 
 p{
