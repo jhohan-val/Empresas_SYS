@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+/* import { useNavigate } from "react-router-dom"; */
 import Footer from "../Footer";
 import Header from "../Header";
 
@@ -36,7 +36,7 @@ const FormularioClientes = () => {
                         <input value={direccion} onChange={(e)=> setDireccion(e.target.value)} className="form-item" placeholder="Dirección" type="text" />
                         <input value={barrio} onChange={(e)=> setBarrio(e.target.value)} className="form-item" placeholder="Barrio" type="text" />
                         <input value={telefono} onChange={(e)=> setTelefono(e.target.value)} className="form-item" placeholder="Teléfono" type="tel" />
-                        <Link className="btn-form-clientes" type="submit" value={"Agregar"}>Agregar</Link>
+                        <input className="btn-form-clientes" type="submit" value={"Agregar"}></input>
                     </form>
                 </section>
             <Footer />
