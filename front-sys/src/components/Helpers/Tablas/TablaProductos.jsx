@@ -40,12 +40,12 @@ const TablaProductos = () => {
                         <tbody className="tbody">
                             {productos.map((productos) => (
                                 <tr className="text-center" key={productos.id}>
-                                    <td>{productos.nombre}</td>
-                                    <td>{productos.fragancia}</td>
-                                    <td>{productos.referencia}</td>
-                                    <td>{productos.tamaño}</td>
-                                    <td>{productos.cantidad}</td>
-                                    <td>{productos.fabricante}</td>
+                                    <td className="td-clientes">{productos.nombre}</td>
+                                    <td className="td-clientes">{productos.fragancia}</td>
+                                    <td className="td-clientes">{productos.referencia}</td>
+                                    <td className="td-clientes">{productos.tamaño}</td>
+                                    <td className="td-clientes">{productos.cantidad}</td>
+                                    <td className="td-clientes">{productos.fabricante}</td>
                                     <td className="d-flex">
                                         <BtnEliminar/>
                                         <BtnEditar/>

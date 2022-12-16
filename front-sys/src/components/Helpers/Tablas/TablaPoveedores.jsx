@@ -42,12 +42,12 @@ const TablaProveedores = () => {
                         <tbody className="tbody">
                             {proveedores.map((proveedores) => (
                                 <tr className="text-center" key={proveedores.id}>
-                                    <td>{proveedores.nombre}</td>
-                                    <td>{proveedores.nit}</td>
-                                    <td>{proveedores.correo}</td>
-                                    <td>{proveedores.direccion}</td>
-                                    <td>{proveedores.telefono}</td>
-                                    <td>{proveedores.producto}</td>
+                                    <td className="td-clientes">{proveedores.nombre}</td>
+                                    <td className="td-clientes">{proveedores.nit}</td>
+                                    <td className="td-clientes">{proveedores.correo}</td>
+                                    <td className="td-clientes">{proveedores.direccion}</td>
+                                    <td className="td-clientes">{proveedores.telefono}</td>
+                                    <td className="td-clientes">{proveedores.producto}</td>
                                     <td className="d-flex">
                                     <BtnEliminarProveedores/>
                                     <BtnEditar/>
