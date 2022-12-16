@@ -9,8 +9,8 @@ const Footer = () => {
                 <IconoFacebook />
                 <IconoTwitter />
                 <IconoInstagram />
-                <section className="footer-copyright">
-                    <p>Todos los derechos reservados a </p>
+                <section>
+                    <p className="footer-copyright">Todos los derechos reservados © 2022</p>
                 </section>
             </footer>
         </section>
