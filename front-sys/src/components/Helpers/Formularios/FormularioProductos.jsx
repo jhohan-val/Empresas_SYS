@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState } from "react"
-import { Link, useNavigate } from "react-router-dom";
+/* import { useNavigate } from "react-router-dom"; */
 import Footer from "../Footer";
 import Header from "../Header";
 
@@ -36,7 +36,7 @@ const FormularioProductos = () => {
                         <input value={tamaño} onChange={(e)=> setTamaño(e.target.value)} className="form-item" placeholder="Tamaño" type="text" />
                         <input value={cantidad} onChange={(e)=> setCantidad(e.target.value)} className="form-item" placeholder="Cantidad" type="text" />
                         <input value={fabricante} onChange={(e)=> setFabricante(e.target.value)} className="form-item" placeholder="Fabricante" type="text" />
-                        <Link className="btn-form-productos" type="submit" value={"Agregar"}>Agregar</Link>
+                        <input className="btn-form-productos" type="submit" value={"Agregar"}/>
                     </form>
                 </section>
             <Footer />
