@@ -81,6 +81,7 @@ a:active {
 .footer-basic {
   width: 100%;
   height: 10vh;
+  display: flex;
   transform: matrix(-1, 0, 0, -1, 0, 0);
   background: transparent linear-gradient(94deg,#000000e0 0%, #010100c7 10%, #c59649 69%, #c69749 76%, #c69749 100% ) 0% 0% no-repeat padding-box;
   border-radius: 0px 0px 200px 200px;  
@@ -109,6 +110,14 @@ a:active {
 .iconos-redes:hover{
   transform: scale(1.2);
 } 
+
+.footer-copyright{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #c69749;
+}
+
 
 /* CARDS */
 
