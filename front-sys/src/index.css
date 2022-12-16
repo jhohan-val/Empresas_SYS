@@ -113,8 +113,8 @@ a:active {
 } 
 
 .footer-copyright{
-margin-left: -536px;
-padding: 40px;
+  margin-left: -530px;
+  padding: 30px;
   color: #ffffff;
   opacity: 0.35;
 }
