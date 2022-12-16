@@ -36,7 +36,7 @@ const FormularioClientes = () => {
                         <input value={direccion} onChange={(e)=> setDireccion(e.target.value)} className="form-item" placeholder="Dirección" type="text" />
                         <input value={barrio} onChange={(e)=> setBarrio(e.target.value)} className="form-item" placeholder="Barrio" type="text" />
                         <input value={telefono} onChange={(e)=> setTelefono(e.target.value)} className="form-item" placeholder="Teléfono" type="tel" />
-                        <input className="btn-form-clientes" type="submit" value={"Agregar"}></input>
+                        <input className="btn-form-clientes" type="submit" value={"Agregar"}/>
                     </form>
                 </section>
             <Footer />
