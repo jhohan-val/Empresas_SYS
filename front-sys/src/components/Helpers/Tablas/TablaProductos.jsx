@@ -38,20 +38,20 @@ const TablaProductos = () => {
                             </tr>
                         </thead>
                         <tbody className="tbody">
-                            {productos.map((productos)=> {
-                                <tr key={productos.id} className="tr">
-                                    <td className="td-productos">{productos.nombre}</td>
-                                    <td className="td-productos">{productos.fragancia}</td>
-                                    <td className="td-productos">{productos.referencia}</td>
-                                    <td className="td-productos">{productos.tamaño}</td>
-                                    <td className="td-productos">{productos.cantidad}</td>
-                                    <td className="td-productos">{productos.fabricante}</td>
+                            {productos.map((productos) => (
+                                <tr className="text-center" key={productos.id}>
+                                    <td>{productos.nombre}</td>
+                                    <td>{productos.fragancia}</td>
+                                    <td>{productos.referencia}</td>
+                                    <td>{productos.tamaño}</td>
+                                    <td>{productos.cantidad}</td>
+                                    <td>{productos.fabricante}</td>
                                     <td className="d-flex">
                                         <BtnEliminar/>
                                         <BtnEditar/>
                                     </td>
                                 </tr>
-                            })}
+                            ))}
                         </tbody>
                     </table>
                 </section>
